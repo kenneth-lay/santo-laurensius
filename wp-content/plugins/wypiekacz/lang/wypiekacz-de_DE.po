@@ -1,0 +1,361 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WyPiekacz v2.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wypiekacz\n"
+"POT-Creation-Date: 2010-01-04 23:07+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: WordPressPluginGuide.com <info@wppg.me>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: wypiekacz.php:150
+msgid "Post Status has been changed to Draft."
+msgstr "Nachrichtenstatus ist auf Entwurf geaendert."
+
+#: wypiekacz.php:253
+msgid "WyPiekacz Status"
+msgstr "WyPiekacz Status"
+
+#: wypiekacz.php:263
+msgid "[Skipped check]"
+msgstr "[Ueberpruefung uebersprungen]"
+
+#: wypiekacz.php:267
+msgid "OK"
+msgstr "OK"
+
+#: wypiekacz.php:552
+#, php-format
+msgid "Post is too short (minimum is %1$s chars, your post has %2$s)."
+msgstr "Nachricht ist zu kurz (das Minimum ist %1$s Zeichen, Ihre Nachricht hat %2$s)."
+
+#: wypiekacz.php:560
+#, php-format
+msgid "Post is too short (minimum is %1$s words, your post has %2$s)."
+msgstr "Nachricht ist zu kurz (das Minimum ist %1$s Woerter, Ihre Nachricht hat %2$s)."
+
+#: wypiekacz.php:568
+#, php-format
+msgid "Post contains too many links (maximum is %1$s, your post has %2$s)."
+msgstr "Nachricht enhaelt zu viele Hyperlinks (das Maximum ist %1$s, Ihre Nachricht enthaelt %2$s)."
+
+#: wypiekacz.php:578
+#, php-format
+msgid "Post Title is too short (minimum is %1$s chars, your Title has %2$s)."
+msgstr "Nachrichtentitel ist zu kurz (das Minimum ist %1$s Zeichen, Ihre Nachricht hat %2$s)."
+
+#: wypiekacz.php:582
+#, php-format
+msgid "Post Title is too long (maximum is %1$s chars, your Title has %2$s)."
+msgstr "Nachrichtentitel ist zu lang (das Maximum ist %1$s Zeichen, Ihr Titel hat %2$s)."
+
+#: wypiekacz.php:591
+#, php-format
+msgid "Post Title is too short (minimum is %1$s words, your Title has %2$s)."
+msgstr "Nachrichtentitel ist zu kurz (das Minimum ist %1$s Woerter, Ihr Titel hat %2$s)."
+
+#: wypiekacz.php:595
+#, php-format
+msgid "Post Title is too long (maximum is %1$s words, your Title has %2$s)."
+msgstr "Nachrichtentitel ist zu lang (das Maximum ist %1$s Woerter, Ihr Titel hat %2$s)."
+
+#: wypiekacz.php:627
+#, php-format
+msgid "Cannot add posts to the default category (%s)."
+msgstr "Kann keine Nachrichten an Standardkategorie zufuegen (%s)."
+
+#: wypiekacz.php:640
+#, php-format
+msgid "Too few categories selected (minimum is %1$s, your post has %2$s)."
+msgstr "Nicht genuegend Kategorien ausgewaehlt (das Minimum ist %1$s, Ihre Nachricht hat %2$s)."
+
+#: wypiekacz.php:643
+#, php-format
+msgid "Too many categories selected (maximum is %1$s, your post has %2$s)."
+msgstr "Zu viele Kategorien ausgewaehlt (das Maximum ist %1$s, Ihre Nachricht hat %2$s)."
+
+#: wypiekacz.php:690
+#, php-format
+msgid "Too few tags (minimum is %1$s, your post has %2$s)."
+msgstr "Nicht genuegend Tags (das Minimum ist %1$s, Ihre Nachricht hat %2$s)."
+
+#: wypiekacz.php:693
+#, php-format
+msgid "Too many tags (maximum is %1$s, your post has %2$s)."
+msgstr "Zu viele Tags (das Maximum ist %1$s, Ihre Nachricht hat %2$s)."
+
+#: wypiekacz.php:701
+#, php-format
+msgid "Forbidden word(s) in title: %s"
+msgstr "Untersagte Woerter im Titel: %s"
+
+#: wypiekacz.php:710
+#, php-format
+msgid "Forbidden word(s) in content: %s"
+msgstr "Untersagte Woerter im Text: %s"
+
+#: wypiekacz.php:746
+msgid "Skip rule check (publish even if some conditions are not met)"
+msgstr "Regel-Ueberpruefung ueberspringen (veroeffentlichen, auch wenn nicht alle Voraussetzungen erfuellt sind)"
+
+#: wypiekacz.php:765
+msgid "Draft"
+msgid_plural "Drafts"
+msgstr[0] "Entwurf"
+msgstr[1] "Entwuerfe"
+
+#: wypiekacz.php:775
+msgid "Pending"
+msgid_plural "Pending"
+msgstr[0] "Anstehend"
+msgstr[1] "Anstehend"
+
+#: wypiekacz.php:788
+msgid "Configuration has been saved."
+msgstr "Die Konfiguration ist gespeichert."
+
+#: wypiekacz.php:793
+msgid "WyPiekacz - Options"
+msgstr "WyPiekacz - Optionen"
+
+#: wypiekacz.php:799
+msgid "Post:"
+msgstr "Nachricht:"
+
+#: wypiekacz.php:803
+msgid "Minimum post length (in chars):"
+msgstr "Mindestlaenge Nachrichten (Anzahl der Zeichen):"
+
+#: wypiekacz.php:806
+#: wypiekacz.php:835
+msgid "Note: if you want to check character count only, set minimum word count to zero."
+msgstr "Hinweis: wenn Sie nur die Anzahl der Zeichen kontrollieren moechten, stellen Sie die Mindestzahl der Woerter auf 0 (Null)."
+
+#: wypiekacz.php:812
+msgid "Minimum post length (in words):"
+msgstr "Mindestlaenge Nachrichten (Anzahl der Woerter):"
+
+#: wypiekacz.php:815
+#: wypiekacz.php:844
+msgid "Note: if you want to check word count only, set minimum character count to zero."
+msgstr "Hinweis: wenn Sie nur die Anzahl der Woerter kontrollieren moechten, stellen Sie die Mindestzahl der Zeichen auf 0 (Null)."
+
+#: wypiekacz.php:821
+msgid "Maximum link count in post:"
+msgstr "Hoechstzahl der Hyperlinks in einer Nachricht:"
+
+#: wypiekacz.php:828
+msgid "Post's title:"
+msgstr "Titel der Nachricht:"
+
+#: wypiekacz.php:832
+msgid "Minimum title length (in chars):"
+msgstr "Mindestlaenge des Titels (Anzahl der Zeichen):"
+
+#: wypiekacz.php:841
+msgid "Minimum title length (in words):"
+msgstr "Mindestlaenge des Titels (Anzahl der Woerter):"
+
+#: wypiekacz.php:850
+msgid "Maximum title length (in chars):"
+msgstr "Maximallaenge des Titels (Anzahl der Zeichen):"
+
+#: wypiekacz.php:853
+msgid "Note: if you want to check character count only, set maximum word count to zero."
+msgstr "Hinweis: wenn Sie nur die Anzahl der Zeichen kontrollieren moechten, stellen Sie die Hoechstzahl der Woerter auf 0 (Null)."
+
+#: wypiekacz.php:859
+msgid "Maximum title length (in words):"
+msgstr "Maximallaenge des Titels (Anzahl der Woerter):"
+
+#: wypiekacz.php:862
+msgid "Note: if you want to check word count only, set maximum character count to zero."
+msgstr "Hinweis: wenn Sie nur die Anzahl der Woerter kontrollieren moechten, stellen Sie die Mindestzahl der Zeichen auf 0 (Null)."
+
+#: wypiekacz.php:866
+msgid "Categories:"
+msgstr "Kategorien:"
+
+#: wypiekacz.php:870
+#, php-format
+msgid "Posts can be added to the default category (%s):"
+msgstr "Nachrichten koennen an der Standardkategorie hinzugefuegt werden (%s):"
+
+#: wypiekacz.php:879
+msgid "Minimum categories selected:"
+msgstr "Mindestzahl der gewaehlten Kategorien:"
+
+#: wypiekacz.php:888
+msgid "Maximum categories selected:"
+msgstr "Hoechstzahl der gewaehlten Kategorien:"
+
+#: wypiekacz.php:895
+msgid "Tags:"
+msgstr "Schlagwoerter:"
+
+#: wypiekacz.php:899
+msgid "Minimum tag count:"
+msgstr "Mindestzahl der Schlagwoerter:"
+
+#: wypiekacz.php:908
+msgid "Maximum tag count:"
+msgstr "Hoechstzahl der Schlagwoerter:"
+
+#: wypiekacz.php:915
+msgid "Forbidden words:"
+msgstr "Untersagte Woerter:"
+
+#: wypiekacz.php:919
+msgid "Check for forbidden words in title:"
+msgstr "Titel auf untersagte Woerter hin kontrollieren:"
+
+#: wypiekacz.php:928
+msgid "Check for forbidden words in content:"
+msgstr "Text auf untersagte Woerter hin kontrollieren:"
+
+#: wypiekacz.php:937
+msgid "Forbidden words list:"
+msgstr "Liste der untersagten Woerter:"
+
+#: wypiekacz.php:942
+#: wypiekacz.php:953
+msgid "Put one word per line"
+msgstr "Schreibe ein Wort pro Zeile"
+
+#: wypiekacz.php:948
+msgid "Allowed words list:"
+msgstr "Liste der erlaubten Woerter:"
+
+#: wypiekacz.php:953
+msgid "When WyPiekacz will found any word from Forbidden Word List in text, it will check if it part of any word from Allowed Words List (e.g. <b>fly</b> - forbidden, <b>butterfly</b> - allowed)"
+msgstr "Wenn WyPiekacz im Text ein Wort der untersagten Liste findet, kontrolliert es ob das Wort Teil eines Worts der erlaubten Liste ist (zB. <b>Flug</b> - verboten, <b>Flugzeug</b> - erlaubt)"
+
+#: wypiekacz.php:957
+msgid "Rule enforcement:"
+msgstr "Regeldurchsetzung:"
+
+#: wypiekacz.php:961
+msgid "Enforce max links count:"
+msgstr "Wahrung der Hoechstzahl der Hyperlinks:"
+
+#: wypiekacz.php:964
+msgid "Extra links over limit will be automatically removed"
+msgstr "Zusaetzliche Hyperlinks die das Limit ueberschreiten werden automatisch geloescht"
+
+#: wypiekacz.php:970
+msgid "Enforce max title length:"
+msgstr "Wahrung der Maximallaenge des Titels:"
+
+#: wypiekacz.php:973
+msgid "Too long titles will be automatically truncated"
+msgstr "Titels die zu lang sind, werden automatisch gekuerzt"
+
+#: wypiekacz.php:979
+msgid "Add &quot;...&quot; at the end of the truncated text:"
+msgstr "&quot;...&quot; am Ende des gekuerzten Texts zufuegen:"
+
+#: wypiekacz.php:988
+msgid "Enforce max category count:"
+msgstr "Wahrung der Hoechstzahl der Kategorien:"
+
+#: wypiekacz.php:991
+msgid "Extra categories over limit will be automatically removed"
+msgstr "Zusaetzliche Kategorien die das Limit ueberschreiten werden automatisch geloescht"
+
+#: wypiekacz.php:991
+msgid "Note: If you do not allow to use the default category, WyPiekacz will try to remove it first"
+msgstr "Hinweis: wenn Sie das Verwenden der Standardkategorie nicht erlaubt haben, wird WyPiekacz zuerst versuchen diese Kategorie zu loeschen"
+
+#: wypiekacz.php:997
+msgid "Enforce max tag count:"
+msgstr "Wahrung Hoechstzahl der Schlagwoerter:"
+
+#: wypiekacz.php:1000
+msgid "Extra tags over limit will be automatically removed"
+msgstr "Zusaetzliche Schlagwoerter die das Limit ueberschreiten werden automatisch geloescht"
+
+#: wypiekacz.php:1004
+msgid "Special:"
+msgstr "Spezial:"
+
+#: wypiekacz.php:1008
+msgid "Check above rules for Editors and Administrators:"
+msgstr "Ueberpruefen Sie die oben stehenden Regeln fuer RedakteurInnen und Administrators:"
+
+#: wypiekacz.php:1017
+msgid "Allow Editors and Administrators to skip rule check:"
+msgstr "RedakteurInnen und Administrators erlauben die Regel-Ueberpruefung zu ueberspringen:"
+
+#: wypiekacz.php:1026
+msgid "Show number of Drafts and Pending Posts in Dashboard:"
+msgstr "Anzahl der Nachrichten im Modus 'Entwurf' und 'Anstehend' auf dem Dashboard zeigen:"
+
+#: wypiekacz.php:1033
+msgid "Default post template:"
+msgstr "Standard Nachrichtenschablone:"
+
+#: wypiekacz.php:1037
+msgid "Title:"
+msgstr "Titel:"
+
+#: wypiekacz.php:1046
+msgid "Text:"
+msgstr "Text:"
+
+#: wypiekacz.php:1053
+msgid "Email notifications:"
+msgstr "E-Mail Nachrichten:"
+
+#: wypiekacz.php:1057
+msgid "Send notification of new login creation to admin:"
+msgstr "Schriftliche Benachrichtigung von neuen Logins an Administrator schicken:"
+
+#: wypiekacz.php:1066
+msgid "Send notification of password resets to admin:"
+msgstr "Schriftliche Benachrichtigung von Kennwort-Reset an Administrator schicken:"
+
+#: wypiekacz.php:1077
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+#: wypiekacz.php:1179
+#, php-format
+msgid "Username: %s"
+msgstr "Benutzername: %s"
+
+#: wypiekacz.php:1180
+#, php-format
+msgid "Password: %s"
+msgstr "Kennwort: %s"
+
+#: wypiekacz.php:1183
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Ihr Benutzername und Kennwort"
+
+#. Plugin Name of an extension
+msgid "WyPiekacz"
+msgstr "WyPiekacz"
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/wypiekacz/"
+msgstr "http://www.poradnik-webmastera.com/projekty/wypiekacz/"
+
+#. Description of an extension
+msgid "Checks if posts submitted for review and posted satisfies set of rules."
+msgstr "Kontrollieren ob zur Kontrolle zugefuegte Nachrichten den Anforderungen entsprechen."
+
+#. Author of an extension
+msgid "Daniel Frużyński"
+msgstr "Daniel Frużyński"
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr "http://www.poradnik-webmastera.com/"
+

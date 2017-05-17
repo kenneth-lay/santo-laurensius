@@ -1,0 +1,383 @@
+# Polish translation for WyPiekacz plugin.
+# Copyright (C) 2009 Daniel Frużyński
+# This file is distributed under the same license as the WyPiekacz package.
+# Daniel Frużyński <daniel [A-T] poradnik-webmastera.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WyPiekacz\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wypiekacz\n"
+"POT-Creation-Date: 2010-06-13 15:20+0000\n"
+"PO-Revision-Date: 2010-06-13 20:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: Daniel Frużyński <daniel [A-T] poradnik-webmastera.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+
+#: wypiekacz.php:189
+msgid "Post Status has been changed to Draft."
+msgstr "Lo stato del Post è stato modificato in Bozza"
+
+#: wypiekacz.php:292
+msgid "WyPiekacz Status"
+msgstr "WyPiekacz Status"
+
+#: wypiekacz.php:302
+msgid "[Skipped check]"
+msgstr "[Salta controllo]"
+
+#: wypiekacz.php:306
+msgid "OK"
+msgstr "OK"
+
+#: wypiekacz.php:591
+#, php-format
+msgid "Post is too short (minimum is %1$s chars, your post has %2$s)."
+msgstr "Articolo troppo corto (Caratteri minimi richiesti %1$, Totale in questo articolo %2$s)."
+
+#: wypiekacz.php:599
+#, php-format
+msgid "Post is too short (minimum is %1$s words, your post has %2$s)."
+msgstr "Articolo troppo corto (Parole minime richieste %1$s, Totale in questo articolo %2$s)."
+
+#: wypiekacz.php:607
+#, php-format
+msgid "Post contains too many links (maximum is %1$s, your post has %2$s)."
+msgstr "L'Articolo contiene troppi links (Massimo %1$s, Totale in questo articolo %2$s)."
+
+#: wypiekacz.php:617
+#, php-format
+msgid "Post Title is too short (minimum is %1$s chars, your Title has %2$s)."
+msgstr "Il Titolo dell'articolo è troppo corto (Caratteri minimi richiesti %1$s, Totale in questo articolo %2$s)."
+
+#: wypiekacz.php:621
+#, php-format
+msgid "Post Title is too long (maximum is %1$s chars, your Title has %2$s)."
+msgstr "Il titolo dell'articolo è troppo lungo (Caratteri massimi %1$s, Questo titolo ne ha %2$s)."
+
+#: wypiekacz.php:630
+#, php-format
+msgid "Post Title is too short (minimum is %1$s words, your Title has %2$s)."
+msgstr "Il titolo dell'articolo è troppo corto (Minimo %1$s parole richieste, Questo titolo ne ha %2$s)."
+
+#: wypiekacz.php:634
+#, php-format
+msgid "Post Title is too long (maximum is %1$s words, your Title has %2$s)."
+msgstr "Il titolo dell'articolo è troppo lungo (Massimo %1$s parole, Questo titolo ne ha %2$s)."
+
+#: wypiekacz.php:666
+#, php-format
+msgid "Cannot add posts to the default category (%s)."
+msgstr "L'articolo non può essere inserito nella categoria di default: (%s)."
+
+#: wypiekacz.php:679
+#, php-format
+msgid "Too few categories selected (minimum is %1$s, your post has %2$s)."
+msgstr "Poche categorie selezionate (Minime richieste %1$s, Selezionate %2$s)."
+
+#: wypiekacz.php:682
+#, php-format
+msgid "Too many categories selected (maximum is %1$s, your post has %2$s)."
+msgstr "Sono state scelte troppe categorie per l'articolo (Massimo %1$s, Selezionate %2$s)."
+
+#: wypiekacz.php:729
+#, php-format
+msgid "Too few tags (minimum is %1$s, your post has %2$s)."
+msgstr "Numero di tags errato (Minimo %1$s, Ne sono stati inseriti %2$s)."
+
+#: wypiekacz.php:732
+#, php-format
+msgid "Too many tags (maximum is %1$s, your post has %2$s)."
+msgstr "Troppi tags inseriti (Massimo %1$s, Ora ci sono %2$s tags)."
+
+#: wypiekacz.php:740
+#, php-format
+msgid "Forbidden word(s) in title: %s"
+msgstr "Sono state inserite una o più parole non valide nel Titolo dell'articolo: %s"
+
+#: wypiekacz.php:749
+#, php-format
+msgid "Forbidden word(s) in content: %s"
+msgstr "Sono state inserite una o più parole non valide nel Testo dell'articolo: %s"
+
+#: wypiekacz.php:785
+msgid "Skip rule check (publish even if some conditions are not met)"
+msgstr "Salta il controllo dei ruoli/permessi (Pubblica il Post anche se alcune condizioni non vengono rispettate)"
+
+#: wypiekacz.php:804
+msgid "Draft"
+msgid_plural "Drafts"
+msgstr[0] "Bozza"
+msgstr[1] "Bozza"
+msgstr[2] "Bozze"
+
+#: wypiekacz.php:818
+msgid "Pending"
+msgid_plural "Pending"
+msgstr[0] "In sospeso"
+msgstr[1] "In attesa"
+msgstr[2] "In attesa"
+
+#: wypiekacz.php:835
+msgid "WyPiekacz - Options"
+msgstr "WyPiekacz - Opzioni"
+
+#: wypiekacz.php:841
+msgid "Post:"
+msgstr "Post:"
+
+#: wypiekacz.php:845
+msgid "Minimum post length (in chars):"
+msgstr "Lunghezza minima Articolo (in caratteri):"
+
+#: wypiekacz.php:848
+#: wypiekacz.php:877
+msgid "Note: if you want to check character count only, set minimum word count to zero."
+msgstr "Note: Se vuoi effettuare solo il controllo dei caratteri, imposta a zero il controllo del numero minimo di parole."
+
+#: wypiekacz.php:854
+msgid "Minimum post length (in words):"
+msgstr "Lunghezza minima Articolo (in parole):"
+
+#: wypiekacz.php:857
+#: wypiekacz.php:886
+msgid "Note: if you want to check word count only, set minimum character count to zero."
+msgstr "Note: Se vuoi effettuare solo il controllo delle parole, imposta a zero il controllo del numero minimo di caratteri."
+
+#: wypiekacz.php:863
+msgid "Maximum link count in post:"
+msgstr "Numero massimo di Link consentiti nell'articolo:"
+
+#: wypiekacz.php:870
+msgid "Post's title:"
+msgstr "Titolo dell'articolo:"
+
+#: wypiekacz.php:874
+msgid "Minimum title length (in chars):"
+msgstr "Lunghezza minima del titolo (in caratteri):"
+
+#: wypiekacz.php:883
+msgid "Minimum title length (in words):"
+msgstr "Lunghezza minima del titolo (in parole):"
+
+#: wypiekacz.php:892
+msgid "Maximum title length (in chars):"
+msgstr "Lunghezza massima del titolo (in caratteri):"
+
+#: wypiekacz.php:895
+msgid "Note: if you want to check character count only, set maximum word count to zero."
+msgstr "Note: Se vuoi effettuare solo il controllo dei caratteri, imposta a zero il controllo del numero minimo di parole."
+
+#: wypiekacz.php:901
+msgid "Maximum title length (in words):"
+msgstr "Lunghezza massima del titolo (in parole):"
+
+#: wypiekacz.php:904
+msgid "Note: if you want to check word count only, set maximum character count to zero."
+msgstr "Note: Se vuoi effettuare solo il controllo delle parole, imposta a zero il controllo del numero minimo di caratteri."
+
+#: wypiekacz.php:908
+msgid "Categories:"
+msgstr "Categorie:"
+
+#: wypiekacz.php:912
+#, php-format
+msgid "Posts can be added to the default category (%s):"
+msgstr "L'articolo può essere inserito nella categoria di default  (%s):"
+
+#: wypiekacz.php:921
+msgid "Minimum categories selected:"
+msgstr "Categorie minime da selezionare:"
+
+#: wypiekacz.php:930
+msgid "Maximum categories selected:"
+msgstr "Categorie massime selezionabili:"
+
+#: wypiekacz.php:937
+msgid "Tags:"
+msgstr "Tags:"
+
+#: wypiekacz.php:941
+msgid "Minimum tag count:"
+msgstr "Tags minimi:"
+
+#: wypiekacz.php:950
+msgid "Maximum tag count:"
+msgstr "Tags massimi:"
+
+#: wypiekacz.php:957
+msgid "Forbidden words:"
+msgstr "Parole non consentite:"
+
+#: wypiekacz.php:961
+msgid "Check for forbidden words in title:"
+msgstr "Controlla la presenza di parole Non consentite nel Titolo dell'articolo:"
+
+#: wypiekacz.php:970
+msgid "Check for forbidden words in content:"
+msgstr "Controlla la presenza di parole non consentite nel contenuto dell'articolo:"
+
+#: wypiekacz.php:979
+msgid "Forbidden words list:"
+msgstr "Lista Parole non consentite:"
+
+#: wypiekacz.php:984
+#: wypiekacz.php:995
+msgid "Put one word per line"
+msgstr "Inserisci una parola per ogni riga"
+
+#: wypiekacz.php:990
+msgid "Allowed words list:"
+msgstr "Lista parole consentite:"
+
+#: wypiekacz.php:995
+msgid "When WyPiekacz will found any word from Forbidden Word List in text, it will check if it part of any word from Allowed Words List (e.g. <b>fly</b> - forbidden, <b>butterfly</b> - allowed)"
+msgstr "Quando WyPiekacz troverà una qualsiasi parola, non consentita, nel testo dell'articolo, esso verifica se parte di quella parola si trova anche nella lista di una qualsiasi delle parole consentite. (Esempio se imposti che la parola <b>droghe</b> non sarà consentito - la parola <b>drogheria</b> invece sarà consentita!)"
+
+#: wypiekacz.php:999
+msgid "Rule enforcement:"
+msgstr "Attiva applicazione delle regole:"
+
+#: wypiekacz.php:1003
+msgid "Enforce max links count:"
+msgstr "Attiva conteggio link massimi:"
+
+#: wypiekacz.php:1006
+msgid "Extra links over limit will be automatically removed"
+msgstr "I Link in più verranno automaticamente rimossi"
+
+#: wypiekacz.php:1012
+msgid "Enforce max title length:"
+msgstr "Attiva controllo lunghezza massima del titolo:"
+
+#: wypiekacz.php:1015
+msgid "Too long titles will be automatically truncated"
+msgstr "Un titolo troppo lungo verrà automaticamente tagliato al numero massimo di parole o caratteri impostati."
+
+#: wypiekacz.php:1021
+msgid "Add &quot;...&quot; at the end of the truncated text:"
+msgstr "Aggiungi &quot;...&quot; alla fine del testo tagliato:"
+
+#: wypiekacz.php:1030
+msgid "Enforce max category count:"
+msgstr "Attiva controllo numero massimo di categorie selezionabili:"
+
+#: wypiekacz.php:1033
+msgid "Extra categories over limit will be automatically removed"
+msgstr "Le categorie in più verranno automaticamente rimosse"
+
+#: wypiekacz.php:1033
+msgid "Note: If you do not allow to use the default category, WyPiekacz will try to remove it first"
+msgstr "Note: Se l'uso della categoria di default non è consentita, si tenterà di eliminare quella per prima."
+
+#: wypiekacz.php:1039
+msgid "Enforce max tag count:"
+msgstr "Attiva controllo dei tag massimi consentiti:"
+
+#: wypiekacz.php:1042
+msgid "Extra tags over limit will be automatically removed"
+msgstr "I tags in più verranno rimossi automaticamente"
+
+#: wypiekacz.php:1046
+msgid "Special:"
+msgstr "Impostazioni avanzate:"
+
+#: wypiekacz.php:1050
+msgid "Check above rules for Editors and Administrators:"
+msgstr "Effettua il controllo delle regole anche agli articoli scritti da Editori e Amministratori:"
+
+#: wypiekacz.php:1059
+msgid "Allow Editors and Administrators to skip rule check:"
+msgstr "Permetti a Editori ed Amministratori di saltare queste regole:"
+
+#: wypiekacz.php:1068
+msgid "Show number of Drafts and Pending Posts in Dashboard:"
+msgstr "Mostra il numero delle Bozze e degli articoli in Sospeso nella Bacheca:"
+
+#: wypiekacz.php:1075
+msgid "Supported post types:"
+msgstr "Tipi di Articoli supportati:"
+
+#: wypiekacz.php:1079
+msgid "Check rules for following post types:"
+msgstr "Attiva controllo regole per i seguenti tipi di Articolo:"
+
+#: wypiekacz.php:1093
+#, php-format
+msgid "Custom Post Types are supported starting from WordPress 3.0 (you are using version %s). For earlier version WyPiekacz supports Posts only."
+msgstr "Il supporto per i tipi di articoli da controllare singolarmente funziona dalla versione 3.0 di Wordpress (Tu stai usando la versione %s). Per le versioni precedenti WyPiekacz supporta solo il controllo di ogni Articolo inserito."
+
+#: wypiekacz.php:1098
+msgid "Default post template:"
+msgstr "Template predefinito per nuovi Articoli:"
+
+#: wypiekacz.php:1102
+msgid "Title:"
+msgstr "Titolo:"
+
+#: wypiekacz.php:1111
+msgid "Text:"
+msgstr "Testo:"
+
+#: wypiekacz.php:1118
+msgid "Email notifications:"
+msgstr "Notifiche via Email:"
+
+#: wypiekacz.php:1122
+msgid "Send notification of new login creation to admin:"
+msgstr "Invia una notifica all'amministratore quando un nuovo utente si iscrive:"
+
+#: wypiekacz.php:1131
+msgid "Send notification of password resets to admin:"
+msgstr "Invia una notifica all'amministratore quando un utente modifica la password del suo profilo:"
+
+#: wypiekacz.php:1141
+msgid "Save settings"
+msgstr "Salva impostazioni"
+
+#: wypiekacz.php:1203
+msgid "Posts"
+msgstr "Articoli"
+
+#: wypiekacz.php:1273
+#, php-format
+msgid "Username: %s"
+msgstr "Nome Utente: %s"
+
+#: wypiekacz.php:1274
+#, php-format
+msgid "Password: %s"
+msgstr "Password: %s"
+
+#: wypiekacz.php:1277
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Il tuo Nome Utente e password"
+
+#. Plugin Name of the plugin/theme
+msgid "WyPiekacz"
+msgstr "WyPiekacz"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.poradnik-webmastera.com/projekty/wypiekacz/"
+msgstr "http://www.poradnik-webmastera.com/projekty/wypiekacz/"
+
+#. Description of the plugin/theme
+msgid "Checks if posts submitted for review and posted satisfies set of rules."
+msgstr "Controlla se il Post inviato per la revisione e la pubblicazione soddisfa l'insieme delle regole."
+
+#. Author of the plugin/theme
+msgid "Daniel Frużyński"
+msgstr "Daniel Frużyński"
+
+#. Author URI of the plugin/theme
+msgid "http://www.poradnik-webmastera.com/"
+msgstr "http://www.poradnik-webmastera.com/"
+
+#~ msgid "Configuration has been saved."
+#~ msgstr "Konfiguracja została zapisana."

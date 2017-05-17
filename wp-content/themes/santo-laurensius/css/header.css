@@ -1,0 +1,67 @@
+#access 
+{
+	background:#323223;
+	text-align:center;
+	height: auto;
+}
+
+#access div div a.main-menu-item 
+{
+	font-family: Arvo, "lucida grande", "lucida sans unicode";
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: normal;
+	color: #323223;
+	background-color: white;
+	display: block;
+	height: 45px;
+	margin: 10px 0px 0px 0px;
+	padding: 8px 6px 10px 8px;
+	text-align: left;
+	line-height:20px;
+}
+
+#access div div a.link:link, #access div div a.link:visited 
+{
+	color: #FFFFCC;
+	background-color: #716639;
+}
+
+#access div div a.link:hover, #access div div a.link:active 
+{
+	color: #323223;
+	background-color: #BFA640;
+	text-decoration: none;
+}
+
+#header 
+{
+	background-color: #FFFFCC;
+	background-image:url('../images/header/grid.png');
+	background-repeat: repeat-x repeat-y;
+	text-align:center;
+	border-top: 10px #CC3300 solid;
+}
+
+#logo 
+{
+	margin: 10px 0px -10px 10px;
+}
+
+menu-explanation 
+{
+	font-size: 12px;
+	font-family: "lucida grande", "lucida sans unicode", sans-serif;
+	display: block;
+	line-height: 100%;
+}
+
+#page-title 
+{
+	background-color: #FFCC00;
+	padding: 0px 30px 0px 10px;
+	margin: 10px 0px 5px 0px;
+	font-family: Arvo, "lucida grande", "lucida sans unicode";
+	font-size: large;
+	text-align: left;
+}

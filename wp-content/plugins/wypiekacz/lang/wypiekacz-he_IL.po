@@ -1,0 +1,378 @@
+# Translation of the WordPress plugin WyPiekacz 2.1 by Daniel Frużyński.
+# Copyright (C) 2010 Daniel Frużyński
+# This file is distributed under the same license as the WyPiekacz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WyPiekacz 2.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wypiekacz\n"
+"POT-Creation-Date: 2010-06-13 15:20+0000\n"
+"PO-Revision-Date: 2011-10-11 00:02+0200\n"
+"Last-Translator: שגיב SEO <info@sagive.co.il>\n"
+"Language-Team: Sagive SEO <info@sagive.co.il>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: Hebrew\n"
+"X-Poedit-Country: ISRAEL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: wypiekacz.php:189
+msgid "Post Status has been changed to Draft."
+msgstr "הסטטוס של הפוסט השתנה לטיוטה."
+
+#: wypiekacz.php:292
+msgid "WyPiekacz Status"
+msgstr "הסטטוס של WyPiekacz"
+
+#: wypiekacz.php:302
+msgid "[Skipped check]"
+msgstr "[דילגתי על בדיקה]"
+
+#: wypiekacz.php:306
+msgid "OK"
+msgstr "בסדר"
+
+#: wypiekacz.php:591
+#, php-format
+msgid "Post is too short (minimum is %1$s chars, your post has %2$s)."
+msgstr "הפוסט שלך קצר מידי (המינימום הוא %1$s תווים ובפוסט שלך יש %2$s)."
+
+#: wypiekacz.php:599
+#, php-format
+msgid "Post is too short (minimum is %1$s words, your post has %2$s)."
+msgstr "הפוסט שלך קצר מידי (המינימום הוא %1$s מילים ובפוסט שלך יש %2$s)."
+
+#: wypiekacz.php:607
+#, php-format
+msgid "Post contains too many links (maximum is %1$s, your post has %2$s)."
+msgstr "הפוסט שלך מכיל יותר מידי קישורים (המקסימום הוא %1$s ובפוסט שלך יש %2$s)."
+
+#: wypiekacz.php:617
+#, php-format
+msgid "Post Title is too short (minimum is %1$s chars, your Title has %2$s)."
+msgstr "כותרת הפוסט שלך קצרה מידי (המינימום הוא %1$s תווים ובכותרת שלך יש %2$s)."
+
+#: wypiekacz.php:621
+#, php-format
+msgid "Post Title is too long (maximum is %1$s chars, your Title has %2$s)."
+msgstr "כותרת הפוסט שלך ארוכה מידי (המקסימום הוא %1$s תווים ובכותרת שלך יש %2$s)."
+
+#: wypiekacz.php:630
+#, php-format
+msgid "Post Title is too short (minimum is %1$s words, your Title has %2$s)."
+msgstr "כותרת הפוסט שלך קצרה מידי מידי (המינימום הוא %1$s מילים ובכותרת שלך יש %2$s)."
+
+#: wypiekacz.php:634
+#, php-format
+msgid "Post Title is too long (maximum is %1$s words, your Title has %2$s)."
+msgstr "כותרת הפוסט שלך ארוכה מידי (המקסימום הוא %1$s מילים ובכותרת שלך יש %2$s)."
+
+#: wypiekacz.php:666
+#, php-format
+msgid "Cannot add posts to the default category (%s)."
+msgstr "אין אפשרות לשייך פוסטים לקטגוריית ברירת מחדל (%s)."
+
+#: wypiekacz.php:679
+#, php-format
+msgid "Too few categories selected (minimum is %1$s, your post has %2$s)."
+msgstr "מעט מידי קטגוריות (המינימום הוא %1$s, בפוסט שלך יש %2$s)."
+
+#: wypiekacz.php:682
+#, php-format
+msgid "Too many categories selected (maximum is %1$s, your post has %2$s)."
+msgstr "בחרת יותר מידי קטגוריות (המקסימום הוא %1$s, בפוסט שלך יש %2$s)."
+
+#: wypiekacz.php:729
+#, php-format
+msgid "Too few tags (minimum is %1$s, your post has %2$s)."
+msgstr "מעט מידי תגיות (המינימום הוא %1$s, בפוסט שלך יש %2$s)."
+
+#: wypiekacz.php:732
+#, php-format
+msgid "Too many tags (maximum is %1$s, your post has %2$s)."
+msgstr "יותר מידי תגיות (המקסימום הוא %1$s, בפוסט שלך יש %2$s)."
+
+#: wypiekacz.php:740
+#, php-format
+msgid "Forbidden word(s) in title: %s"
+msgstr "מילים אסורות בכותרת: %s"
+
+#: wypiekacz.php:749
+#, php-format
+msgid "Forbidden word(s) in content: %s"
+msgstr "מילים אסורות בתוכן: %s"
+
+#: wypiekacz.php:785
+msgid "Skip rule check (publish even if some conditions are not met)"
+msgstr "התעלם מבדיקת הכללים (פרסם אפילו אם הפוסט לא עומד בתנאים)"
+
+#: wypiekacz.php:804
+msgid "Draft"
+msgid_plural "Drafts"
+
+#: wypiekacz.php:818
+msgid "Pending"
+msgid_plural "Pending"
+
+#: wypiekacz.php:835
+msgid "WyPiekacz - Options"
+msgstr "WyPiekacz - אפשרויות"
+
+#: wypiekacz.php:841
+msgid "Post:"
+msgstr "פוסט:"
+
+#: wypiekacz.php:845
+msgid "Minimum post length (in chars):"
+msgstr "אורך פוסט מינימלי (בתווים):"
+
+#: wypiekacz.php:848
+#: wypiekacz.php:877
+msgid "Note: if you want to check character count only, set minimum word count to zero."
+msgstr "שים לב: אם אתה רוצה לבדוק על פי תווים קבע את המינימום של כמות המילים לאפס"
+
+#: wypiekacz.php:854
+msgid "Minimum post length (in words):"
+msgstr "אורך פוסט מינימלי (במילים):"
+
+#: wypiekacz.php:857
+#: wypiekacz.php:886
+msgid "Note: if you want to check word count only, set minimum character count to zero."
+msgstr "שים לב: אם אתה רוצה לבדוק על פי מילים קבע את המינימום של כמות התווים לאפס"
+
+#: wypiekacz.php:863
+msgid "Maximum link count in post:"
+msgstr "מספר קישורים מקסימלי בפוסט:"
+
+#: wypiekacz.php:870
+msgid "Post's title:"
+msgstr "כותרת הפוסט:"
+
+#: wypiekacz.php:874
+msgid "Minimum title length (in chars):"
+msgstr "אורך כותרת מקסימלי (בתווים):"
+
+#: wypiekacz.php:883
+msgid "Minimum title length (in words):"
+msgstr "אורך כותרת מינמילי (במילים):"
+
+#: wypiekacz.php:892
+msgid "Maximum title length (in chars):"
+msgstr "אורך כותרת מקסימלי (בתווים):"
+
+#: wypiekacz.php:895
+msgid "Note: if you want to check character count only, set maximum word count to zero."
+msgstr "שים לב: אם אתה רוצה לבדוק על פי תווים בלבד קבע את המקסימום של כמות המילים לאפס"
+
+#: wypiekacz.php:901
+msgid "Maximum title length (in words):"
+msgstr "אורך כותרת מקסימלי (במילים):"
+
+#: wypiekacz.php:904
+msgid "Note: if you want to check word count only, set maximum character count to zero."
+msgstr "שים לב: אם אתה רוצה לבדוק על פי כמות המילים בלבד קבע את המקסימום של כמות התווים לאפס"
+
+#: wypiekacz.php:908
+msgid "Categories:"
+msgstr "קטגוריות:"
+
+#: wypiekacz.php:912
+#, php-format
+msgid "Posts can be added to the default category (%s):"
+msgstr "אפשר לפרסם פוסטים בקטגורית ברירת מחדל (%s):"
+
+#: wypiekacz.php:921
+msgid "Minimum categories selected:"
+msgstr "מינימום קטגוריות שניתן לבחור:"
+
+#: wypiekacz.php:930
+msgid "Maximum categories selected:"
+msgstr "מקסימום קטגוריות שניתן לבחור:"
+
+#: wypiekacz.php:937
+msgid "Tags:"
+msgstr "תגיות:"
+
+#: wypiekacz.php:941
+msgid "Minimum tag count:"
+msgstr "מספר תגיות מינימלי:"
+
+#: wypiekacz.php:950
+msgid "Maximum tag count:"
+msgstr "מספר תגיות מקסימלי:"
+
+#: wypiekacz.php:957
+msgid "Forbidden words:"
+msgstr "מילים אסורות לשימוש:"
+
+#: wypiekacz.php:961
+msgid "Check for forbidden words in title:"
+msgstr "בדוק אם קיימות מילים אסורות בכותרת:"
+
+#: wypiekacz.php:970
+msgid "Check for forbidden words in content:"
+msgstr "בדוק אם קיימות מילים אסורות בתוכן הפוסט:"
+
+#: wypiekacz.php:979
+msgid "Forbidden words list:"
+msgstr "רשימת מילים אסורות:"
+
+#: wypiekacz.php:984
+#: wypiekacz.php:995
+msgid "Put one word per line"
+msgstr "כתוב מילה אחת בכל שורה"
+
+#: wypiekacz.php:990
+msgid "Allowed words list:"
+msgstr "רשימת מילים מותרות:"
+
+#: wypiekacz.php:995
+msgid "When WyPiekacz will found any word from Forbidden Word List in text, it will check if it part of any word from Allowed Words List (e.g. <b>fly</b> - forbidden, <b>butterfly</b> - allowed)"
+msgstr "כאשר WyPiekacz  מוצא מילים אסורות בטקסט הוא יבדוק אם המילים הן חלק ממילה אחרת שהיא מותרת (לדוגמה <b>fly</b> - אסור, <b>butterfly</b> - מותר)"
+
+#: wypiekacz.php:999
+msgid "Rule enforcement:"
+msgstr "כפייה של הכללים:"
+
+#: wypiekacz.php:1003
+msgid "Enforce max links count:"
+msgstr "כפה כמות הקישורים המקסימלית:"
+
+#: wypiekacz.php:1006
+msgid "Extra links over limit will be automatically removed"
+msgstr "קישורים נוספים אשר חורגים מהכמות המותרות יוסרו באופן אוטומטי"
+
+#: wypiekacz.php:1012
+msgid "Enforce max title length:"
+msgstr "כפה אורך כותרת מקסימלי:"
+
+#: wypiekacz.php:1015
+msgid "Too long titles will be automatically truncated"
+msgstr "כותרות ארוכות מידי יקוצרו באופן אוטומטי"
+
+#: wypiekacz.php:1021
+msgid "Add &quot;...&quot; at the end of the truncated text:"
+msgstr "הוסף &quot;...&quot; בסוף של טקסט מקוצר:"
+
+#: wypiekacz.php:1030
+msgid "Enforce max category count:"
+msgstr "כפה מספר קטגוריות מקסימלי:"
+
+#: wypiekacz.php:1033
+msgid "Extra categories over limit will be automatically removed"
+msgstr "קטגוריות אשר יחרגו ממספר הקטגוריות המקסימלי יוסרו באופן אוטומטי"
+
+#: wypiekacz.php:1033
+msgid "Note: If you do not allow to use the default category, WyPiekacz will try to remove it first"
+msgstr "שים לב: אם אתה לא מתיר הוספה של פוסטים לקטגוריית ברירת מחדל WyPiekacz ינסה להסיר אותה."
+
+#: wypiekacz.php:1039
+msgid "Enforce max tag count:"
+msgstr "כפה מספר תגיות מקסימלי:"
+
+#: wypiekacz.php:1042
+msgid "Extra tags over limit will be automatically removed"
+msgstr "תגיות עודפות מעל לכמות המותרת יוסרו באופן אוטומטי"
+
+#: wypiekacz.php:1046
+msgid "Special:"
+msgstr "מיוחד:"
+
+#: wypiekacz.php:1050
+msgid "Check above rules for Editors and Administrators:"
+msgstr "בדוק את הכללים למעלה גם עבור עורכים ומנהל האתר:"
+
+#: wypiekacz.php:1059
+msgid "Allow Editors and Administrators to skip rule check:"
+msgstr "אפשר למנהל האתר ומשתמשים ברמת עורך לדלג על ההגבלות:"
+
+#: wypiekacz.php:1068
+msgid "Show number of Drafts and Pending Posts in Dashboard:"
+msgstr "הצג את מספר הטיוטות והפוסטים הממתינים לפרסום בלוח הבקרה:"
+
+#: wypiekacz.php:1075
+msgid "Supported post types:"
+msgstr "סוגי פוסט נתמכים:"
+
+#: wypiekacz.php:1079
+msgid "Check rules for following post types:"
+msgstr "בדוק חוקים עבור סוגי הפוסטים הבאים:"
+
+#: wypiekacz.php:1093
+#, php-format
+msgid "Custom Post Types are supported starting from WordPress 3.0 (you are using version %s). For earlier version WyPiekacz supports Posts only."
+msgstr "סוגי פוסטים מיוחדים נתמכים החל מוורדפרס 3.0 ומעלה (אתה משתמש בגרסה %s). עבור גרסאות מוקדמות יותר WyPiekacz תומך בפוסטים רגילים בלבד."
+
+#: wypiekacz.php:1098
+msgid "Default post template:"
+msgstr "תבנית פוסט ברירת מחדל"
+
+#: wypiekacz.php:1102
+msgid "Title:"
+msgstr "כותרת:"
+
+#: wypiekacz.php:1111
+msgid "Text:"
+msgstr "טקסט:"
+
+#: wypiekacz.php:1118
+msgid "Email notifications:"
+msgstr "הודעות באימייל:"
+
+#: wypiekacz.php:1122
+msgid "Send notification of new login creation to admin:"
+msgstr "שלח הודעות על משתמשים חדשים למנהל האתר:"
+
+#: wypiekacz.php:1131
+msgid "Send notification of password resets to admin:"
+msgstr "שלח הודעות על איפוסי סיסמה למנהל האתר:"
+
+#: wypiekacz.php:1141
+msgid "Save settings"
+msgstr "שמור הגדרות"
+
+#: wypiekacz.php:1203
+msgid "Posts"
+msgstr "פוסטים"
+
+#: wypiekacz.php:1273
+#, php-format
+msgid "Username: %s"
+msgstr "שם משתמש: %s"
+
+#: wypiekacz.php:1274
+#, php-format
+msgid "Password: %s"
+msgstr "סיסמה: %s"
+
+#: wypiekacz.php:1277
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] שם המשתמש והסיסמה שלך"
+
+#. Plugin Name of the plugin/theme
+msgid "WyPiekacz"
+msgstr "WyPiekacz"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.poradnik-webmastera.com/projekty/wypiekacz/"
+msgstr "http://www.poradnik-webmastera.com/projekty/wypiekacz/"
+
+#. Description of the plugin/theme
+msgid "Checks if posts submitted for review and posted satisfies set of rules."
+msgstr "בודק אם פוסט הוגש לאישור על ידי המנהל ואם הפוסט עונה לסט הכללים"
+
+#. Author of the plugin/theme
+msgid "Daniel Frużyński"
+msgstr "Daniel Frużyński"
+
+#. Author URI of the plugin/theme
+msgid "http://www.poradnik-webmastera.com/"
+msgstr "http://www.poradnik-webmastera.com/"
+

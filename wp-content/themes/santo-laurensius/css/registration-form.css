@@ -1,0 +1,140 @@
+#amin
+{
+	background-color: #FFCC66;
+	color: #600000;
+	padding: 5px 5px 5px 5px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.registration input[type="submit"], .registration button
+{
+	font-weight: bold;
+	border: 1px dashed #FFFFCC;
+	background-color: #CC3300;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	font-size: 14px;
+	float: right;
+}
+
+.registration input[type="submit"]:hover, .registration button:hover
+{
+	background-color: #FFCC00;
+	color: black;
+}
+
+.not-required-field
+{
+	border-left: none !important;
+	padding-left: 22px !important;
+}
+
+.optional-field
+{
+	border-left: 7px orange solid;
+	padding: 10px 25px 10px 15px;
+	background-color: #F0F0F0;
+	text-align: left;
+	font-size: 11px;
+	color: #505050;
+	border-bottom: 1px dashed #505050;
+}
+
+#pernyataan-iman, #syarat-ketentuan
+{
+	display: none;
+	border: 1px solid #CC3300;
+	padding: 10px 15px 10px 15px;
+	width: 630px;
+}
+
+#pernyataan-iman h4, #syarat-ketentuan h4
+{
+	border-bottom: 1px dashed #CC3300;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	color: #CC3300;
+}
+
+#pernyataan-iman p,  #syarat-ketentuan p
+{
+	margin-bottom: 5px;
+}
+
+.registration-form-field 
+{
+	padding: 10px 25px 10px 15px;
+	background-color: #F0F0F0;
+	border-left: 7px #CC3300 solid;
+	text-align: left;
+	font-size: 11px;
+	color: #505050;
+	/*
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	*/
+	/*
+	margin-bottom: 10px;
+	*/
+	border-bottom: 1px dashed #505050;
+}
+
+.registration-form-field input[type="text"], .optional-field input[type="text"], .registration-form-field input[type="password"]
+{
+	width: 100%;
+	height: 20px;
+	font-size: 14px;
+	color: black;
+}
+
+.registration-form-field label, .optional-field label
+{
+	display: block;
+	color: #CC3300;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.registration-form-field span
+{
+	font-size: 12px;
+}
+
+.registration-form-field span.error-msg, .error-msg, .optional-field .error-msg
+{
+	color: red;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.sample-bordir
+{
+	display: inline-block;
+	padding: 2px 7px 2px 5px;
+	border-left: 3px solid #CC3300;
+	background-color: #F0F0F0;
+}
+
+.sample-bordir-2
+{
+	display: inline-block;
+	padding: 2px 7px 2px 5px;
+	border-left: 3px solid orange;
+	background-color: #F0F0F0;
+}
+
+.single-column div p
+{
+	margin-bottom: 10px;
+}
+
+.single-column div p:first-child
+{
+	margin-top: 10px;
+}
+
+.single-column div p:last-child
+{
+	margin-bottom: 20px;
+}

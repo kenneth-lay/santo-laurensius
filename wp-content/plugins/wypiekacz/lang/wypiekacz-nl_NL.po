@@ -1,0 +1,361 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WyPiekacz v2.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wypiekacz\n"
+"POT-Creation-Date: 2009-12-18 20:43+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rene - WordPressPluginGuide.com <info@wppg.me>\n"
+"Language-Team: WordPressPluginGuide.com <info@wppg.me>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: wypiekacz.php:152
+msgid "Post Status has been changed to Draft."
+msgstr "Bericht status is veranderd naar Concept."
+
+#: wypiekacz.php:255
+msgid "WyPiekacz Status"
+msgstr "WyPiekacz Status"
+
+#: wypiekacz.php:265
+msgid "[Skipped check]"
+msgstr "[Overgeslagen controle]"
+
+#: wypiekacz.php:269
+msgid "OK"
+msgstr "OK"
+
+#: wypiekacz.php:554
+#, php-format
+msgid "Post is too short (minimum is %1$s chars, your post has %2$s)."
+msgstr "Bericht is te kort (minimum is %1$s karakters, jouw bericht heeft er %2$s)."
+
+#: wypiekacz.php:562
+#, php-format
+msgid "Post is too short (minimum is %1$s words, your post has %2$s)."
+msgstr "Bericht is te kort (minimum is %1$s woorden, jouw bericht heeft er %2$s)."
+
+#: wypiekacz.php:570
+#, php-format
+msgid "Post contains too many links (maximum is %1$s, your post has %2$s)."
+msgstr "Bericht bevat teveel links (minimum is %1$s, jouw bericht heeft er %2$s)."
+
+#: wypiekacz.php:580
+#, php-format
+msgid "Post Title is too short (minimum is %1$s chars, your Title has %2$s)."
+msgstr "Bericht titel is te kort (minimum is %1$s karakters, jouw titel heeft er %2$s)."
+
+#: wypiekacz.php:584
+#, php-format
+msgid "Post Title is too long (maximum is %1$s chars, your Title has %2$s)."
+msgstr "Bericht titel is te lang (maximum is %1$s karakters, jouw titel heeft er %2$s)."
+
+#: wypiekacz.php:593
+#, php-format
+msgid "Post Title is too short (minimum is %1$s words, your Title has %2$s)."
+msgstr "Bericht titel is te kort (minimum is %1$s woorden, jouw titel heeft er %2$s)."
+
+#: wypiekacz.php:597
+#, php-format
+msgid "Post Title is too long (maximum is %1$s words, your Title has %2$s)."
+msgstr "Bericht titel is te lang (maximum is %1$s woorden, jouw titel heeft er %2$s)."
+
+#: wypiekacz.php:629
+#, php-format
+msgid "Cannot add posts to the default category (%s)."
+msgstr "Kan geen berichten toevoegen aan de standaard categorie (%s)."
+
+#: wypiekacz.php:642
+#, php-format
+msgid "Too few categories selected (minimum is %1$s, your post has %2$s)."
+msgstr "Te weinig categorieën geselecteerd (minimum is %1$s, jouw bericht heeft er %2$s)."
+
+#: wypiekacz.php:645
+#, php-format
+msgid "Too many categories selected (maximum is %1$s, your post has %2$s)."
+msgstr "Teveel categorieën geselecteerd (maximum is %1$s, jouw bericht heeft er %2$s)."
+
+#: wypiekacz.php:692
+#, php-format
+msgid "Too few tags (minimum is %1$s, your post has %2$s)."
+msgstr "Te weinig tags (minimum is %1$s, jouw bericht heeft er %2$s)."
+
+#: wypiekacz.php:695
+#, php-format
+msgid "Too many tags (maximum is %1$s, your post has %2$s)."
+msgstr "Teveel tags (minimum is %1$s, jouw bericht heeft er %2$s)."
+
+#: wypiekacz.php:703
+#, php-format
+msgid "Forbidden word(s) in title: %s"
+msgstr "Verboden woord(en) in de titel: %s"
+
+#: wypiekacz.php:712
+#, php-format
+msgid "Forbidden word(s) in content: %s"
+msgstr "Verboden woord(en) in de tekst: %s"
+
+#: wypiekacz.php:748
+msgid "Skip rule check (publish even if some conditions are not met)"
+msgstr "Controleren op overslaan regel (publiceren, zelfs als aan sommige voorwaarden niet is voldaan)"
+
+#: wypiekacz.php:767
+msgid "Draft"
+msgid_plural "Drafts"
+msgstr[0] "Concept"
+msgstr[1] "Concepts"
+
+#: wypiekacz.php:777
+msgid "Pending"
+msgid_plural "Pending"
+msgstr[0] "In behandeling"
+msgstr[1] "In behandeling"
+
+#: wypiekacz.php:790
+msgid "Configuration has been saved."
+msgstr "De configuratie is opgeslagen."
+
+#: wypiekacz.php:796
+msgid "WyPiekacz - Options"
+msgstr "WyPiekacz - Opties"
+
+#: wypiekacz.php:802
+msgid "Post:"
+msgstr "Bericht:"
+
+#: wypiekacz.php:806
+msgid "Minimum post length (in chars):"
+msgstr "Minimum bericht lengte (in karakters):"
+
+#: wypiekacz.php:809
+#: wypiekacz.php:838
+msgid "Note: if you want to check character count only, set minimum word count to zero."
+msgstr "Opmerking: als je alleen het aantal karakters wil controleren zet de telling van het minimaal aantal woorden op 0 (nul)."
+
+#: wypiekacz.php:815
+msgid "Minimum post length (in words):"
+msgstr "Minimum bericht lengte (in woorden):"
+
+#: wypiekacz.php:818
+#: wypiekacz.php:847
+msgid "Note: if you want to check word count only, set minimum character count to zero."
+msgstr "Opmerking: als je alleen het aantal woorden wil controleren zet de telling van het minimaal aantal karakters op 0 (nul)."
+
+#: wypiekacz.php:824
+msgid "Maximum link count in post:"
+msgstr "Maximaal aantal links in een bericht:"
+
+#: wypiekacz.php:831
+msgid "Post's title:"
+msgstr "Titel van het bericht:"
+
+#: wypiekacz.php:835
+msgid "Minimum title length (in chars):"
+msgstr "Minimum titel lengte (in karakters):"
+
+#: wypiekacz.php:844
+msgid "Minimum title length (in words):"
+msgstr "Minimum titel lengte (in woorden):"
+
+#: wypiekacz.php:853
+msgid "Maximum title length (in chars):"
+msgstr "Maximum titel lengte (in karakters):"
+
+#: wypiekacz.php:856
+msgid "Note: if you want to check character count only, set maximum word count to zero."
+msgstr "Opmerking: als je alleen het aantal karakters wil controleren zet de telling van het maximaal aantal woorden op 0 (nul)."
+
+#: wypiekacz.php:862
+msgid "Maximum title length (in words):"
+msgstr "Maximum titel lengte (in woorden):"
+
+#: wypiekacz.php:865
+msgid "Note: if you want to check word count only, set maximum character count to zero."
+msgstr "Opmerking: als je alleen het aantal woorden wil controleren zet de telling van het maximaal aantal karakters op 0 (nul)."
+
+#: wypiekacz.php:869
+msgid "Categories:"
+msgstr "Categorieën:"
+
+#: wypiekacz.php:873
+#, php-format
+msgid "Posts can be added to the default category (%s):"
+msgstr "Berichten kunnen toegevoegd worden aan de standaard categorie (%s):"
+
+#: wypiekacz.php:882
+msgid "Minimum categories selected:"
+msgstr "Minimum geselecteerde categorieën:"
+
+#: wypiekacz.php:891
+msgid "Maximum categories selected:"
+msgstr "Maximum geselecteerde categorieën:"
+
+#: wypiekacz.php:898
+msgid "Tags:"
+msgstr "Tags:"
+
+#: wypiekacz.php:902
+msgid "Minimum tag count:"
+msgstr "Minimum aantal tags:"
+
+#: wypiekacz.php:911
+msgid "Maximum tag count:"
+msgstr "Maximum aantal tags:"
+
+#: wypiekacz.php:918
+msgid "Forbidden words:"
+msgstr "Verboden woorden:"
+
+#: wypiekacz.php:922
+msgid "Check for forbidden words in title:"
+msgstr "Controleer op verboden woorden in de titel:"
+
+#: wypiekacz.php:931
+msgid "Check for forbidden words in content:"
+msgstr "Controleer op verboden woorden in de tekst:"
+
+#: wypiekacz.php:940
+msgid "Forbidden words list:"
+msgstr "Verboden woordenlijst:"
+
+#: wypiekacz.php:945
+#: wypiekacz.php:956
+msgid "Put one word per line"
+msgstr "Schrijf een woord per regel"
+
+#: wypiekacz.php:951
+msgid "Allowed words list:"
+msgstr "Toegestane woordenlijst:"
+
+#: wypiekacz.php:956
+msgid "When WyPiekacz will found any word from Forbidden Word List in text, it will check if it part of any word from Allowed Words List (e.g. <b>fly</b> - forbidden, <b>butterfly</b> - allowed)"
+msgstr "Wanneer WyPiekacz een woord vindt van de Verboden Woordenlijst in de tekst, zal het controleren of het een onderdeel is van een woord van de Toegestane Woordenlijst (bijv. <b>vlieg</b> - verboden, <b>vliegtuig</b> - toegestaan)"
+
+#: wypiekacz.php:960
+msgid "Rule enforcement:"
+msgstr "Handhaving regel:"
+
+#: wypiekacz.php:964
+msgid "Enforce max links count:"
+msgstr "Handhaving maximaal aantal links:"
+
+#: wypiekacz.php:967
+msgid "Extra links over limit will be automatically removed"
+msgstr "Extra links welke de limiet overschrijden worden automatisch verwijderd"
+
+#: wypiekacz.php:973
+msgid "Enforce max title length:"
+msgstr "Handhaving maximale lengte titel:"
+
+#: wypiekacz.php:976
+msgid "Too long titles will be automatically truncated"
+msgstr "Te lange titels worden automatisch ingekort"
+
+#: wypiekacz.php:982
+msgid "Add &quot;...&quot; at the end of the truncated text:"
+msgstr "Voeg &quot;...&quot; toe aan het einde van de ingekorte text:"
+
+#: wypiekacz.php:991
+msgid "Enforce max category count:"
+msgstr "Handhaving maximaal aantal categorieën:"
+
+#: wypiekacz.php:994
+msgid "Extra categories over limit will be automatically removed"
+msgstr "Extra categorieën welke de limiet overschrijden worden automatisch verwijderd"
+
+#: wypiekacz.php:994
+msgid "Note: If you do not allow to use the default category, WyPiekacz will try to remove it first"
+msgstr "Opmerking: Wanneer je niet het gebruik van de standaard categorie toestaat zal WyPiekacz proberen deze eerst te verwijderen"
+
+#: wypiekacz.php:1000
+msgid "Enforce max tag count:"
+msgstr "Handhaving maximaal aantal tags:"
+
+#: wypiekacz.php:1003
+msgid "Extra tags over limit will be automatically removed"
+msgstr "Extra tags welke de limiet overschrijden worden automatisch verwijderd"
+
+#: wypiekacz.php:1007
+msgid "Special:"
+msgstr "Speciaal:"
+
+#: wypiekacz.php:1011
+msgid "Check above rules for Editors and Administrators:"
+msgstr "Controleer bovenstaande regels voor Auteurs en Beheerders:"
+
+#: wypiekacz.php:1020
+msgid "Allow Editors and Administrators to skip rule check:"
+msgstr "Sta Auteurs en Beheerders toe om de regel controle over te slaan:"
+
+#: wypiekacz.php:1029
+msgid "Show number of Drafts and Pending Posts in Dashboard:"
+msgstr "Laat het aantal berichten zien welke in concept modus en in behandeling zijn op het dashbord:"
+
+#: wypiekacz.php:1036
+msgid "Default post template:"
+msgstr "Standaard bericht sjabloon:"
+
+#: wypiekacz.php:1040
+msgid "Title:"
+msgstr "Titel:"
+
+#: wypiekacz.php:1049
+msgid "Text:"
+msgstr "Text:"
+
+#: wypiekacz.php:1056
+msgid "Email notifications:"
+msgstr "Email mededelingen:"
+
+#: wypiekacz.php:1060
+msgid "Send notification of new login creation to admin:"
+msgstr "Verzend de mededeling van een nieuwe inlog creatie naar de beheerder:"
+
+#: wypiekacz.php:1069
+msgid "Send notification of password resets to admin:"
+msgstr "Verzend de mededeling van een wachtwoord reset naar de beheerder:"
+
+#: wypiekacz.php:1080
+msgid "Save settings"
+msgstr "Instellingen bewaren"
+
+#: wypiekacz.php:1182
+#, php-format
+msgid "Username: %s"
+msgstr "Gebruikersnaam: %s"
+
+#: wypiekacz.php:1183
+#, php-format
+msgid "Password: %s"
+msgstr "Wachtwoord: %s"
+
+#: wypiekacz.php:1186
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Jouw gebruikersnaam en wachtwoord"
+
+#. Plugin Name of an extension
+msgid "WyPiekacz"
+msgstr "WyPiekacz"
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/wypiekacz/"
+msgstr "http://www.poradnik-webmastera.com/projekty/wypiekacz/"
+
+#. Description of an extension
+msgid "Checks if posts submitted for review and posted satisfies set of rules."
+msgstr "Controleer of berichten welke zijn toegevoegd ter controle voldoen aan de gestelde regels."
+
+#. Author of an extension
+msgid "Daniel Fruyski"
+msgstr "Daniel Fruyski"
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr "http://www.poradnik-webmastera.com/"
+

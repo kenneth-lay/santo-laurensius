@@ -1,0 +1,51 @@
+.fill-blue
+{
+	background-color: blue;
+}
+
+.fill-cream
+{
+	background-color: #FFFFCC;
+}
+
+.fill-fransiscan
+{
+	background-color: #996633;
+}
+
+.fill-grey-light
+{
+	background-color: #F0F0F0;
+}
+
+.hover-grey-light:hover
+{
+	background-color: #F8F8F8;
+}
+
+.fill-semi-orange
+{
+	background-color: #FFCC66;
+}
+
+.fill-yellow
+{
+	background-color: yellow;
+}
+
+.fore-maroon
+{
+	color: #CC3300;
+}
+
+.fore-reddish-orange
+{
+	color: #f86017;
+}
+
+.hover-cream {}
+
+.hover-cream:hover 
+{
+	background-color: #FFFFCC;
+}

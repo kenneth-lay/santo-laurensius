@@ -1,0 +1,183 @@
+#copyright 
+{
+	background-color: #323223;
+	padding: 10px 0px 10px 0px;
+	border-top: 1px solid #BFA640;
+}
+
+#copyright div div
+{
+	color: #716639;
+	text-align: center;
+}
+
+#footer 
+{
+	background:#716639;
+	text-align:center;
+	margin-top: -5px;
+	border-top: 4px #323223 solid;
+	color: #ffffff;
+	padding-bottom: 10px;
+}
+
+#footer .facebook
+{
+	background-image: url('../images/footer/fb-logo.png');
+}
+
+#footer .twitter 
+{
+	background-image: url('../images/footer/tw-logo.png');
+}
+
+#footer div .link:link, #footer div .link:visited 
+{
+	text-decoration: none;
+	background-color: #322A23;
+	background-repeat: no-repeat;
+	color: white;
+	display: block;
+	font-size: 18px;
+	padding: 7px 0px 3px 58px;
+	margin: 0px 0px 5px 0px;
+	height: 38px;
+	line-height: 100%;
+}
+
+#footer div .link:hover, #footer div .link:active 
+{
+	background-color: #BFA640;
+	color: black;
+}
+
+#footer div div h3 
+{
+	font-family: Arvo;
+	color: #FFFFCC;
+	margin: 10px 0px 10px 0px;
+	padding-bottom: 5px;
+	border-bottom: dashed 1px #FFFFCC;
+}
+
+#footer input
+{
+	height: 15px;
+}
+
+#footer input[type="submit"] 
+{
+	background-color: #FFCC00;
+	border: 1px dashed #716639;
+	color: black;
+	height: 20px;
+}
+
+#footer input[type="submit"]:hover 
+{
+	background-color: #FFFFCC;
+	color: black;
+}
+
+#footer input[type="text"] 
+{
+	width: 100%;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	background-color: #BFA640;
+}
+
+#footer input[type="text"]:hover 
+{
+	background-color: #FFFFCC;
+}
+
+#footer textarea 
+{
+	width: 93%;
+	height: 100px;
+	background-color: #BFA640;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	resize: none;
+}
+
+#footer textarea:hover 
+{
+	background-color: #FFFFCC;
+}
+
+.kenneth
+{
+	display: inline-block;
+	padding: 2px 5px 2px 5px;
+	background-color: #BFA640;
+	color: #322A23;
+	font-weight: bold;
+	border: 1px dashed #716639;
+	text-decoration: none;
+}
+
+.kenneth:hover
+{
+	background-color: #FFFFCC;
+	color: #322A23;
+	text-decoration: none;
+}
+
+li.widget-container
+{
+	text-align: left;
+}
+
+ul.basic-list
+{
+	margin: 0px 0px 0px 0px;
+}
+
+ul.basic-list li
+{
+	list-style-type: disc;
+}
+
+ul.indentation 
+{
+	list-style-type: none;
+}
+
+.small-text
+{
+	font-size: 9px;
+	display: block;
+	text-height: 100%;
+	color: #BFA640;
+	border-left: 2px solid #BFA640;
+	padding-left: 5px;
+}
+
+.wordpress-logo
+{
+	padding: 5px 0px 8px 0px;
+	margin-top: 10px;
+	border-top: 1px dotted #FFFFCC;
+	height: 75px;
+}
+
+.wordpress-logo div .link:hover
+{
+	background-image: url('../images/footer/wplogo-hover.png');
+}
+
+.wordpress-logo div
+{
+	margin-top: 5px;
+}
+
+.wplogo
+{
+	background-image: url('../images/footer/wplogo.png');
+}

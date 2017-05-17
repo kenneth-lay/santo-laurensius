@@ -1,0 +1,29 @@
+.append-bottom-negative 
+{
+	margin-bottom: -2px;
+}
+
+.prepend-top-medium 
+{
+	margin: 15px 0px 0px 0px;
+}
+
+.prepend-top-negative-small 
+{
+	margin: -10px 0px 0px 0px;
+}
+
+.prepend-top-negative-large
+{
+	margin-top: -20px;
+}
+
+.prepend-top-negative-medium
+{
+	margin-top: -15px;
+}
+
+.prepend-top-medium 
+{
+	margin: 10px 0px 0px 0px;
+}

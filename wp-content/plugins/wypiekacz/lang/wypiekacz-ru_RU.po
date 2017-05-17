@@ -1,0 +1,269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wyp\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wypiekacz\n"
+"POT-Creation-Date: 2009-08-22 10:12+0000\n"
+"PO-Revision-Date: 2009-08-22 17:23+0300\n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: wypiekacz.php:113
+msgid "Post Status has been changed to Draft."
+msgstr "Статус поста был изменен на Черновик"
+
+#: wypiekacz.php:166
+msgid "WyPiekacz Status"
+msgstr "Статус WyPiekacz "
+
+#: wypiekacz.php:176
+msgid "OK"
+msgstr "ОК"
+
+#: wypiekacz.php:245
+#, php-format
+msgid "Post is too short (minimum is %1$s chars, your post has %2$s)."
+msgstr "Пост короткий (минимально %1$s символов, в вашем посте %2$s). "
+
+#: wypiekacz.php:264
+#, php-format
+msgid "Post is too short (minimum is %1$s words, your post has %2$s)."
+msgstr "Пост короткий (минимально %1$s символов, в вашем посте %2$s).  "
+
+#: wypiekacz.php:272
+#, php-format
+msgid "Post contains too many links (maximum is %1$s, your post has %2$s)."
+msgstr "Пост содержит много ссылок (максимум %1$s, в вашем посте %2$s)."
+
+#: wypiekacz.php:282
+#, php-format
+msgid "Post Title is too short (minimum is %1$s chars, your Title has %2$s)."
+msgstr "Заголовок поста слишком короткий (минимально %1$s символов, ваш заголовок содержит %2$s). "
+
+#: wypiekacz.php:286
+#, php-format
+msgid "Post Title is too long (maximum is %1$s chars, your Title has %2$s)."
+msgstr "Заголовок поста слишком длинный (максимально %2$s символов, ваш заголовок содержит %1$s). "
+
+#: wypiekacz.php:318
+#, php-format
+msgid "Cannot add posts to the default category (%s)."
+msgstr "Нельзя добавить посты в категорию по умолчанию (%s)."
+
+#: wypiekacz.php:331
+#, php-format
+msgid "Too few categories selected (minimum is %1$s, your post has %2$s)."
+msgstr "Мало директорий выбрано (минимально - %1$s, ваш пост содержит %2$s)."
+
+#: wypiekacz.php:334
+#, php-format
+msgid "Too many categories selected (maximum is %1$s, your post has %2$s)."
+msgstr "Много директорий выбрано (максимально - %1$s, ваш пост содержит %2$s)."
+
+#: wypiekacz.php:382
+#, php-format
+msgid "Too few tags (minimum is %1$s, your post has %2$s)."
+msgstr "Мало тегов выбрано (минимально - %1$s, ваш пост содержит %2$s)."
+
+#: wypiekacz.php:385
+#, php-format
+msgid "Too many tags (maximum is %1$s, your post has %2$s)."
+msgstr "Много тегов выбрано (максимум - %1$s, ваш пост содержит %2$s)."
+
+#: wypiekacz.php:413
+#, php-format
+msgid "Forbidden word(s) in title: %s"
+msgstr "Запрещенные слова в заголовке: %s"
+
+#: wypiekacz.php:438
+#, php-format
+msgid "Forbidden word(s) in content: %s"
+msgstr "Запрещенные слова в содержании: %s"
+
+#: wypiekacz.php:479
+msgid "Configuration has been saved."
+msgstr "Конфигурация сохранена."
+
+#: wypiekacz.php:485
+msgid "WyPiekacz - Options"
+msgstr "WyPiekacz - Настройки"
+
+#: wypiekacz.php:491
+msgid "Post:"
+msgstr "Пост:"
+
+#: wypiekacz.php:495
+msgid "Minimum post length (in chars):"
+msgstr "Минимальная длина поста (в символах):"
+
+#: wypiekacz.php:498
+msgid "Note: if you want to check character count only, set minimum word count to zero."
+msgstr "Примечание: если вы хотите проверить характер рассчитывать лишь минимальный набор слов к нулю."
+
+#: wypiekacz.php:504
+msgid "Minimum post length (in words):"
+msgstr "Минимальная длина поста (в символах): "
+
+#: wypiekacz.php:507
+msgid "Note: if you want to check word count only, set minimum character count to zero."
+msgstr "Примечание: если вы хотите, чтобы проверить слова рассчитывать лишь минимальный набор символов равен нулю."
+
+#: wypiekacz.php:513
+msgid "Maximum link count in post:"
+msgstr "Максимальное количество ссылок в посте:"
+
+#: wypiekacz.php:522
+msgid "Minimum title length (in chars):"
+msgstr "Минимальная длина заголовка (в символах):"
+
+#: wypiekacz.php:531
+msgid "Maximum title length (in chars):"
+msgstr "Максимальная длина заголовка (в символах):"
+
+#: wypiekacz.php:538
+msgid "Categories:"
+msgstr "Категории:"
+
+#: wypiekacz.php:542
+#, php-format
+msgid "Posts can be added to the default category (%s):"
+msgstr "Посты должны быть добавлены в стандартную категорию (%s):"
+
+#: wypiekacz.php:551
+msgid "Minimum categories selected:"
+msgstr "Минимальное количество категорий выбрано:"
+
+#: wypiekacz.php:560
+msgid "Maximum categories selected:"
+msgstr "Максимальное количество категорий выбрано:"
+
+#: wypiekacz.php:567
+msgid "Tags:"
+msgstr "Тэги:"
+
+#: wypiekacz.php:571
+msgid "Minimum tag count:"
+msgstr "Минимальный счетчик тэгов:"
+
+#: wypiekacz.php:580
+msgid "Maximum tag count:"
+msgstr "Максимальный счетчик тэгов:"
+
+#: wypiekacz.php:587
+msgid "Forbidden words:"
+msgstr "Запрещенные слова:"
+
+#: wypiekacz.php:591
+msgid "Check for forbidden words in title:"
+msgstr "Проверить на запрещенные слова в заголовке"
+
+#: wypiekacz.php:600
+msgid "Check for forbidden words in content:"
+msgstr "Проверить на запрещенные слова в содержании"
+
+#: wypiekacz.php:609
+msgid "Forbidden words list:"
+msgstr "список запрещенных слов:"
+
+#: wypiekacz.php:614
+msgid "Put one word per line"
+msgstr "Вставьте одно слово на строку"
+
+#: wypiekacz.php:618
+msgid "Rule enforcement:"
+msgstr "Правило принуждения:"
+
+#: wypiekacz.php:622
+msgid "Enforce max links count:"
+msgstr "Максимальное число счетчиков:"
+
+#: wypiekacz.php:625
+msgid "Extra links over limit will be automatically removed"
+msgstr "Лимит ссылок автоматически убирается"
+
+#: wypiekacz.php:631
+msgid "Enforce max title length:"
+msgstr "Максимальная длина заголовка:"
+
+#: wypiekacz.php:634
+msgid "Too long titles will be automatically truncated"
+msgstr "Слишком длинные названия будут автоматически усечены"
+
+#: wypiekacz.php:638
+msgid "Special:"
+msgstr "Специальное:"
+
+#: wypiekacz.php:642
+msgid "Check above rules for Editors and Administrators:"
+msgstr "Посмотрите правила для редакторов и администраторов"
+
+#: wypiekacz.php:649
+msgid "Default post template:"
+msgstr "Стандартный шаблон поста:"
+
+#: wypiekacz.php:653
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: wypiekacz.php:662
+msgid "Text:"
+msgstr "Текст:"
+
+#: wypiekacz.php:669
+msgid "Email notifications:"
+msgstr "Предупреждения email:"
+
+#: wypiekacz.php:673
+msgid "Send notification of new login creation to admin:"
+msgstr "Слать уведомления о создании новых логинов администратору"
+
+#: wypiekacz.php:682
+msgid "Send notification of password resets to admin:"
+msgstr "Слать уведомления о сбрасывании паролей администратору"
+
+#: wypiekacz.php:693
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: wypiekacz.php:780
+#, php-format
+msgid "Username: %s"
+msgstr "Имя пользователя: %s"
+
+#: wypiekacz.php:781
+#, php-format
+msgid "Password: %s"
+msgstr "Пароль: %s"
+
+#: wypiekacz.php:784
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Ваш логин и пароль"
+
+#. Plugin Name of an extension
+msgid "WyPiekacz"
+msgstr "WyPiekacz"
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/wypiekacz/"
+msgstr "http://www.poradnik-webmastera.com/projekty/wypiekacz/"
+
+#. Description of an extension
+msgid "Checks if posts submitted for review and posted satisfies set of rules."
+msgstr "Проверять, отправлен ли пост для обзора."
+
+#. Author of an extension
+msgid "Daniel Fruyski"
+msgstr "Daniel Fruyski"
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr "http://www.poradnik-webmastera.com/"
+

@@ -1,0 +1,537 @@
+a.form-komentar h2
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+a.comments h2
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+a.komentar-login h2
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+a.link 
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+a.link:hover 
+{
+	color: inherit;
+	text-decoration: underline;
+}
+
+a.link-extra-maroon
+{
+	color: #990000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.link-extra-maroon:hover
+{
+	text-decoration: underline;
+}
+
+a.link-maroon, a.link-maroon-2
+{
+	color: #CC3300;
+	text-decoration: none;
+}
+
+a.link-maroon:hover 
+{
+	text-decoration: underline;
+}
+
+a.link-maroon-2:hover 
+{
+	font-weight: bold;
+}
+
+.acara-links
+{
+	font-size: 14px;
+}
+
+.acara-links:hover
+{
+	font-weight: bold;
+}
+
+.align-right 
+{
+	text-align: right;
+}
+
+.align-justify
+{
+	text-align: justify;
+}
+
+.art-title 
+{
+	font-family: Arvo, 'Arvo', 'lucida grande', 'lucida sans unicode';
+	color: #CC3300;
+	margin: 0px 0px 0px 0px;
+	line-height: 120%;
+	font-size: 28px;
+	border: none;
+}
+
+.art-subtitle 
+{
+	display: inline;
+	color: #f86017;
+}
+
+.bgmp_placemark h3, .bgmp_placemark p 
+{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode';
+	text-align: left;
+	font-size: 13px !important;
+}
+
+p.bjqs-caption
+{
+	font-family: Arvo, 'Lucida Grande', 'Lucida sans unicode';
+	font-size: 16px;
+	text-align: left !important;
+	padding-left: 15px !important;
+}
+
+.box-small form a
+{
+	font-weight: bold;
+}
+
+.bjqs-caption:hover
+{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.colsubtitle-link
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.colsubtitle-link:hover
+{
+	text-decoration: bold;
+	background-color: orange;
+	color: white;
+}
+
+.coltitle a:link, .coltitle a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+
+.coltitle a:hover, .coltitle a:active
+{
+	text-decoration: underline;
+}
+
+.comment-author cite.fn
+{
+	font-size: 1.4em;
+	color: #CC3300;
+}
+
+#comment-instance em
+{
+	color: blue;
+}
+
+#comment-instance p
+{
+	text-align: justify;
+}
+
+#comment-list .fn a
+{
+	color: #CC3300;
+	text-decoration: none;
+}
+
+#comment-list .fn a:hover
+{
+	text-decoration: underline;
+}
+
+.comment-meta a
+{
+	text-decoration: none;
+	color: grey;
+}
+
+.comment-meta a:hover
+{
+	text-decoration: underline;
+}
+
+.dg-bab
+{
+	color: #CC3300;
+	margin-bottom: -15px;
+	font-size: 18px;
+	font-family: 'lucida grande', 'lucida sans unicode';
+}
+
+.dg-seksi
+{
+	color: #CC3300;
+	margin-bottom: -20px;
+	font-size: 22px;
+	font-family: 'lucida grande', 'lucida sans unicode';
+}
+
+.dg-subbab
+{
+	color: #CC3300;
+	margin-bottom: -10px;
+	font-size: 16px;
+	font-family: 'lucida grande', 'lucida sans unicode';
+	font-weight: normal;
+}
+
+.dg-subtema
+{
+	color: #CC3300;
+	margin-bottom: -30px;
+	font-size: 26px;
+	font-family: Arvo, 'lucida grande', 'lucida sans unicode';
+}
+
+.dg-tema
+{
+	color: #CC3300;
+	font-size: 32px;
+	margin-bottom: -35px;
+	font-family: Arvo, 'lucida grande', 'lucida sans unicode';
+}
+
+.dg-tema p
+{
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #CC3300;
+}
+
+div#author-description p
+{
+	font-style: italic;
+}
+
+div#author-description a
+{
+	color: #CC3300;
+	text-decoration: none;
+}
+
+div#author-description a:hover
+{
+	text-decoration: underline;
+}
+
+div.bgmp_placemark h3
+{
+	font-weight: bold !important;
+	font-family: 'lucida grande', 'lucida sans unicode';
+	font-size: 18px !important;
+	color: #CC3300;
+	display: block;
+}
+
+div#picture-description a
+{
+	text-decoration: none;
+	color: #CC3300;
+}
+
+div#picture-description a:hover
+{
+	text-decoration: underline;
+	font-weight: bold;
+}	
+
+div#search-fails span a, div#empat-nol-empat span a
+{
+	font-size: 12px;
+}
+
+.excerpt-instance .excerpt-title:link, .excerpt-instance .excerpt-title:visited
+{
+	display: block;
+	font-family: Arvo, 'Arvo', 'lucida grande', 'lucida sans unicode';
+	color: #CC3300;
+	margin: 0px 0px -18px 0px;
+	line-height: 120%;
+	border: none;
+	font-size: 19px;
+	text-decoration: none;
+}
+
+.excerpt-instance a
+{
+	color: #CC3300;
+	text-decoration: none;
+}
+
+.excerpt-instance a:hover
+{
+	text-decoration: underline;
+}
+
+.excerpt-instance .excerpt-title:hover, .excerpt-instance .excerpt-title:active
+{
+	text-decoration: underline;
+}
+
+.full-content
+{
+	font-size: 13px;
+	text-align: justify;
+	-moz-column-count: 2;
+	-moz-column-gap: 15px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 15px;
+	column-count: 2;
+	column-gap: 15px;
+}
+
+.halaman-links
+{
+	font-size: 16px;
+	font-family: 'lucida grande', 'lucida sans unicode';
+}
+
+.kategori-links
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.link-bold
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+.link-bold:hover
+{
+	color: inherit;
+	font-weight: bold;
+}
+
+.link-italic
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+.link-italic:hover
+{
+	color: inherit;
+}
+
+menu-explanation-2
+{
+	font-size: 12px;
+	font-family: "lucida grande", "lucida sans unicode", sans-serif;
+	display: block;
+	line-height: 100%;
+	font-weight: normal;
+	padding: 0px 10px 5px 0px;
+	color: #f86017;
+}
+
+.menu-title
+{
+	font-family: Arvo, 'lucida grande', 'lucida sans unicode';
+	color: #CC3300;
+	margin-bottom: 5px;
+	font-size: 18px;
+	border-bottom: 1px dashed #CC3300;
+}
+
+#meta-acara
+{
+	font-size: 14px;
+	font-weight: bold;
+	color: #f86017;
+}
+
+#meta-acara strong
+{
+	color: #f86017;
+}
+
+.notifikasi-panel .art-title
+{
+	font-size: 18px;
+	border-bottom: 1px dashed #CC3300;
+	padding-bottom: 3px;
+	margin-bottom: 5px;
+}
+
+.notifikasi-panel .art-subtitle
+{
+	font-size: 14px;
+	padding-bottom: 3px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #f86017;
+}
+
+.paragraf-pengantar p:first-child, .paragraf-pengantar div.dataTables_wrapper+p:nth-child(2), .paragraf-pengantar-2 p:nth-child(2), #bgmp_map-canvas, table
+{
+	-moz-column-span: all !important;
+	-webkit-column-span: all; !important;
+	column-span: all;
+	font-size: 17px;
+	color: #606060 ;
+	font-family: Arvo, 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.paragraf-pengantar blockquote p:first-child,
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, 'lucida grande', 'lucida sans unicode', Arvo;
+	font-style: regular;
+}
+
+#list-excerpts
+{
+	font-size: inherit;
+}
+
+#list-excerpts p
+{
+	margin-top: 8px;
+	text-align: justify;
+	font-size: 13px;
+}
+
+ol li
+{
+	list-style-type: decimal !important;
+}
+
+.panel-title
+{
+	font-size: 19px;
+	color: #CC3300;
+	font-family: Arvo, 'lucida grande', 'lucida sans unicode';
+	border-bottom: 1px dashed #CC3300;
+	margin-bottom: 8px;
+}
+
+.panel-subtitle
+{
+	font-size: 14px;
+	color: #CC3300;
+	margin-top: -5px;
+	border-bottom: 1px dashed #CC3300;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.pasal-dokumen
+{
+	font-size: 28px;
+	font-family: 'Arvo', 'lucida grande', 'lucida sans unicode';
+	display: block;
+	color: #CC3300;
+	text-decoration: none;
+}
+
+.pasal-dokumen:hover
+{
+	color: #CC3300;
+}
+
+#previous-next a, .previous-next a
+{
+	color: #CC3300;
+	text-decoration: none;
+}
+
+#previous-next a:hover, .previous-next a:hover
+{
+	text-decoration: underline;
+}
+
+.regularize
+{
+	font-size: 12px;
+	font-family: 'lucida grande', 'lucida sans unicode';
+}
+
+#respond a#nama-akun, #respond a#link-keluar, .box-small form a
+{
+	color: #CC3300;
+	text-decoration: none;	
+}
+
+#respond a#nama-akun:hover, #respond a#link-keluar:hover, .box-small form a:hover
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.semua-tags a
+{
+	color: #CC3300;
+	text-decoration: none;
+	font-family: Arvo, 'lucida grande', 'lucida sans unicode';
+}
+
+.semua-tags a:hover
+{
+	color: #f86017;
+	text-decoration: underline;
+}
+
+.single-column
+{	
+	font-size: 13px;
+	text-align: justify;
+	-moz-column-count: 1 !important;
+	-webkit-column-count: 1 !important;
+	column-count: 1 !important;
+}
+
+.size-medium
+{
+	font-size: 18px;	
+}
+
+.size-regular
+{
+	font-size: 14px;
+}
+
+.slide-caption p:hover
+{
+	text-decoration: underline;
+}
+
+table
+{
+	font-family: "lucida grande", "lucida sans unicode";
+}
+
+.widget_text h3.widget-title
+{
+	font-size: 17px !important;
+	margin-bottom: 0px;
+}

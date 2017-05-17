@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>	
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>WyPiekacz 2.2 Readme</title>
+</head>
+<body>
+<h1>WyPiekacz 2.2 Readme</h1>
+<p>This plugin checks if posts submitted for review and posted satisfies set of rules</p>
+<p><b>Plugin Homepage:</b> <a href="http://www.poradnik-webmastera.com/projekty/wypiekacz/">Wypiekacz</a></p>
+<p><b>Plugin Homepage on WordPress.org:</b> <a href="http://wordpress.org/extend/plugins/wypiekacz/">Wypiekacz</a></p>
+<p><b>Author Homepage:</b> <a href="http://www.poradnik-webmastera.com/">Poradnik Webmastera</a></p>
+<p><b>Author:</b> Daniel Frużyński</p>
+
+<h2>Description</h2>
+<p>This plugin is a Multi-Author Blog Toolkit - it greatly simplifies management of such site. It can check if posts submitted for review/posted satisfies set of rules, enforce these rules, delete abandoned drafts, and more. Below is full list of its features.</p>
+<p>WyPiekacz was initially created to check if posts submitted for review and posted satisfies set of rules. Here is full list of rules which it checks now:</p>
+<ul>
+<li>minimum post length (in characters and/or words);</li>
+<li>minimum and maximum number of links;</li>
+<li>position of first link (must be after N initial characters and/or words);</li>
+<li>minimum and maximum length of title (in characters and/or words);</li>
+<li>minimum and maximum number of selected categories;</li>
+<li>WordPress assigns default category if none is selected, so you can forbid this category;</li>
+<li>minimum and maximum number of tags;</li>
+<li>no forbidden words in title, content and/or tags;</li>
+<li>Post thumbnail (Featured image) presence;</li>
+</ul>
+<p>When one or more of these rules are not met, appropriate message is displayed and Post Status is changed to Draft.</p>
+<p>You can also enable options to enforce following rules:</p>
+<ul>
+<li>maximum link count - extra links over limit will be removed;</li>
+<li>position of links - links inserted too close to the beginning will be removed;</li>
+<li>maximum title length - too long titles will be truncated;</li>
+<li>maximum category count - extra categories will be removed (if you do not allow to use the default category, WyPiekacz will try to remove it first);</li>
+<li>maximum tag count - extra tags will be removed;</li>
+</ul>
+<p>By default these rules are checked for everyone. It is possible to disable them for Administrators and Editors. You can also let Administrators and Editors to conditionally disable rule checking for given post.</p>
+<p>Rule check results are also displayed on Edit Posts page. This allows to quickly see if post obeys rules or not, and delete ones which violates them without opening.</p>
+<p>If you have to deal with lots of post submissions (especially automated ones), you can enable following helpful options:</p>
+<ul>
+<li>do not save post at all (use this option with caution - it can negatively affect user experience. Therefore I recommend to enable it if you have to deal with lots of automated spam only);</li>
+<li>automatically move abandoned Post Drafts to Trash (or delete if Trash is disabled) after given number of days. You can also decide to force deletion without moving to Trash;</li>
+<li>automatically lock or disable user account after he/she will abandon given number of drafts (this function requires the <a href="http://wordpress.org/extend/plugins/user-locker/">User Locker</a> plugin);</li>
+</ul>
+<p>There are also additional features, which are useful for multi-author blogs:</p>
+<ul>
+<li>option to specify default template for post title and contents;</li>
+<li>option to disable emails sent to admin when new user account is created and/or when user resets its password;</li>
+<li>plugin displays number of Drafts and Pending Posts in Dashboard;</li>
+<li>plugin adds links to Drafts and Pending Posts lists to Posts menu, along with Draft/Pending Post counts (like WordPress does for Comments);</li>
+<li>options to configure (and disable too) Post Autosave interval, maximum Post Revisions and empty Trash interval;</li>
+</ul>
+<p>If you are using WordPress 3.0 or newer, you can enable rule checking for any post type which supports editor (including custom post types). In earlier WordPress version WyPiekacz supports Posts only.</p>
+<p>Plugin authors: you can enhance WyPiekacz by checking custom rules and enforcing them - see FAQ for more details.</p>
+<p>At the end I will give you few tips:</p>
+<ul>
+<li>you can use default template of post content to to present most important site rules to your authors;</li>
+<li>add URLs of spammer's sites on Forbidden Words List - their posts will be automatically rejected;</li>
+</ul>
+<p>Available translations:</p>
+<ul>
+<li>English</li>
+<li>Polish (pl_PL) - done by me</li>
+<li>Russian (ru_RU) - thanks M.Comfi</li>
+<li>Belorussian (be_BY) - thanks ilyuha</li>
+<li>Dutch (nl_NL) - thanks Rene</li>
+<li>Brazilian Portuguese (pt_BR) - thanks Frank</li>
+<li>German (de_DE) - thanks Rian Klijn</li>
+<li>Italian (it_IT) - thanks Gianluca Marzaro</li>
+<li>Hebrew (he_IL) - thanks Sagive SEO</li>
+</ul>
+
+<h2>Installation</h2>
+<ol>
+<li>Upload <code>wypiekacz</code> directory to the <code>/wp-content/plugins/</code> directory</li>
+<li>Activate the plugin through the 'Plugins' menu in WordPress</li>
+<li>Configure and enjoy :)</li>
+</ol>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How to use Forbidden Word List and Allowed Word List?</h3>
+<p>WyPiekacz first checks if every word from Forbidden Word List is in text. This check is very simple, so forbidden word <i>fly</i> will be matched to <i>butterfly</i> word too. In order to avoid this, you should put allowed words on Allowed Word List. WyPiekacz uses the same simple matching method, so you do not have to enter whole words (this is especially useful if your language allows to decline words in many ways). Please make sure only that forbidden words are always contained in words on Allowed Word List (in other words, entering <i>butterf</i> will not work - you have to enter <i>butterfly</i>).
+
+<h3>Why this plugin is called &quot;WyPiekacz&quot;?</h3>
+<p>You may heard about Presell Pages - content pages placed on other sites, with link(s) leading to your site(s). In Poland this idea evolved into separate sites (WordPress is the preferred script), where everyone can post his or her post with links. Of course there are different Presell Pages - some of them accepts every post and are just full of junk, but there are also ones where posts are thoroughly moderated before publishing. WyPiekacz plugin greatly simplifies moderation tasks for the latter ones.</p>
+<p>&quot;Presell Page&quot; is not the only name used to call them - another popular name is just &quot;Presell&quot;, or similarly pronounced Polish word &quot;Precel&quot; (eng. pretzel). This last name is also a source of other derived names for some tools - they have names referring to pretzels or baking. &quot;WyPiekacz&quot; also follows this convention - it means &quot;baker&quot; - i.e. &quot;tool used for baking&quot;.</p>
+
+<h3>How can I integrate my plugin with WyPiekacz?</h3>
+<p>WyPiekacz provides few hooks which you can use for integration purposes. Here is the list:</p>
+<ul>
+<li><code>wypiekacz_check_post</code> - this filter is called after all build-in rules have been checked. You can use it to check additional rules. As a first parameter it gets array of errors - each row is an array with language-independent key at index 0 and error message at index 1. There are also additional parameters: post content, post title, and post data (either POST array or Post object);</li>
+<li><code>wypiekacz_check_thumbnail</code> - this filter is called after WyPiekacz has checked Post thumbnail presence. As a first parameter it gets thumbnail check result (bool). There are also additional parameters - Post ID and Post Data (either POST array or Post object);</li>
+<li><code>wypiekacz_enforce_rules</code> - this filter is called after WyPiekacz enforced configured rules. It gets one parameter - array with post data. You can use it to enforce additional rules;</li>
+</ul>
+
+<h3>How can I check if my custom Post thumbnail is present?</h3>
+<p>You can use the <code>wypiekacz_check_thumbnail</code> filter to do this. Here is example how to do this using the <a href="http://wordpress.org/extend/plugins/get-the-image/">Get The Image</a> plugin:</p>
+<pre>
+function check_my_custom_post_thumbnail( $check, $post_id ) {
+	if ( $post_id &lt;= 0 ) {
+		return false;
+	}
+	return !empty( get_the_image( array(
+		'post_id' =&gt; $post_id,
+		'attachment' =&gt; false,
+		'echo' =&gt; false,
+	) ) );
+}
+add_filter( 'wypiekacz_check_thumbnail', 'check_my_custom_post_thumbnail', 10, 2);
+</pre>
+
+<h2>Changelog</h2>
+<p>2.2</p>
+<ul>
+<li>Added option to check badwords in tags;</li>
+<li>Added options to check mimimum char and word count before first link;</li>
+<li>Added option to remove links placed too early in post content;</li>
+<li>Added option to check minimum number of links;</li>
+<li>Added options to configure (or disable) Autosave interval, maximum number of Post Revisions and Empty Trash interval;</li>
+<li>Added option to automatically trash/delete abandoned Post Drafts;</li>
+<li>Added option to prevent saving invalid posts (use with caution - enable if you have to deal with lots of automated spam only);</li>
+<li>Added option to lock or disable user account when user submits too many invalid posts for review/publish and do not correct them (this feature requires User Locker plugin);</li>
+<li>Added option to check Post thumbnail (Featured image) presence;</li>
+<li>Added links to Drafts and Pending post lists to Posts menu;</li>
+<li>Added filters and public functions so other plugins can integrate itself with WyPiekacz (see FAQ for more details);</li>
+<li>Increased field size for maximum links count to 4 digits;</li>
+<li>Fix: do not process post revisions and auto-drafts;</li>
+<li>Fix: WyPiekacz stops working for posts after upgrading WordPress 2.9.x or older to WP 3.0+ (if you have experienced this, go to WyPiekacz options and select Posts in Supported post types section);</li>
+<li>Added Hebrew translation (thanks Sagive SEO);</li>
+<li>Marked plugin as tested with WP 3.2</li>
+</ul>
+<p>2.1.1</p>
+<ul>
+<li>Fix: categories count is calculated incorrectly in WP 3.0 (one was added always);</li>
+<li>Fix: Skip rule check option does not work if post has link to attachment;</li>
+<li>Updated Italian translation (thanks Gianluca Marzaro)</li>
+</ul>
+<p>2.1</p>
+<ul>
+<li>Added Italian translation (thanks Gianluca Marzaro);</li>
+<li>Updated to support WP 3.0, marked as compatible with 3.0.x;</li>
+<li>Added support for custom post types</li>
+</ul>
+<p>2.0.4</p>
+<ul>
+<li>Added German translation (thanks Rian Klijn)</li>
+</ul>
+<p>2.0.3</p>
+<ul>
+<li>Code cleanup</li>
+</ul>
+<p>2.0.2</p>
+<ul>
+<li>Added Brazilian Portuguese translation (thanks Frank)</li>
+</ul>
+<p>2.0.1</p>
+<ul>
+<li>Added Dutch translation (thanks Rene);</li>
+<li>Code cleanup</li>
+</ul>
+<p>2.0</p>
+<ul>
+<li>Added options to automatically remove extra categories and tags over limit;</li>
+<li>Added option to show draft and pending post count in Admin Dashboard;</li>
+<li>New filter `wypiekacz_send_email_to_new_user`: allow other plugins to disable sending emails with password to new users;</li>
+<li>Fix: WordPress 2.9 does not display correct message after post status is changed to draft;</li>
+<li>Fix: check rules for pending posts too</li>
+</ul>
+<p>1.14.2</p>
+<ul>
+<li>Marked as compatible with WP 2.9.x</li>
+</ul>
+<p>1.14.1</p>
+<ul>
+<li>Marked as compatible with WP 2.8.5</li>
+</ul>
+<p>1.14</p>
+<ul>
+<li>Clear 'skip rule check' option for post if someone with role lower that Editor saves it;</li>
+<li>Added Allowed Word List;</li>
+<li>Added icon for Ozh' Admin Drop Down Menu plugin</li>
+</ul>
+<p>1.13</p>
+<ul>
+<li>Added option to allow Editors and Administrators to skip rule check for given post</li>
+</ul>
+<p>1.12.1</p>
+<ul>
+<li>Added Belorussian translation (thanks ilyuha);</li>
+<li>Added FAQ and Screenshots</li>
+</ul>
+<p>1.12</p>
+<ul>
+<li>Added option to check minimum and maximum post's title length in words;</li>
+<li>Added option to configure adding &quot;...&quot; at the end of truncated text</li>
+</ul>
+<p>1.11.1</p>
+<ul>
+<li>Added Russian translation (thanks M.Comfi)</li>
+</ul>
+<p>1.11</p>
+<ul>
+<li>Added option to check minimum post length in words</li>
+</ul>
+<p>1.10</p>
+<ul>
+<li>Added option to automatically remove extra links over limit</li>
+<li>Added option to automatically truncate too long titles</li>
+</ul>
+<p>1.9.1</p>
+<ul>
+<li>One more fix for min/max tags counting</li>
+</ul>
+<p>1.9</p>
+<ul>
+<li>Fix: min/max tag count limits do not work in WP 2.8</li>
+<li>Marked plugin as tested with WP 2.8.1</li>
+</ul>
+<p>1.8.1</p>
+<ul>
+<li>Marked plugin as tested with WP 2.8</li>
+</ul>
+<p>1.8</p>
+<ul>
+<li>Fix: cannot activate plugin when registration and/or reset password emails sending option(s) are disabled</li>
+</ul>
+<p>1.7</p>
+<ul>
+<li>Added check for forbidden words in title and content</li>
+</ul>
+<p>1.6</p>
+<ul>
+<li>Fix: yes/no options (checkboxes) were changed to &quot;no&quot; while saving settings;</li>
+<li>Added maximum title length checking;</li>
+<li>Added options to disable extra emails sent to admin, which informs about new users registrations and passwords resets</li>
+</ul>
+<p>1.5</p>
+<ul>
+<li>Updated admin section code for forward WordPress compatibility</li>
+</ul>
+<p>1.4</p>
+<ul>
+<li>Updated to work with Simple Post Tags plugin</li>
+</ul>
+<p>1.3</p>
+<ul>
+<li>Bug fix - unseen results of post checking may be displayed on Edit Posts page;</li>
+<li>Added new column to the Edit Posts page with check results</li>
+</ul>
+<p>1.2</p>
+<ul>
+<li>Translated plugin to English, moved Polish language to external file;</li>
+<li>Uploaded plugin to wordpress.org repository</li>
+</ul>
+<p>1.1</p>
+<ul>
+<li>Added check for minimum post title length;</li>
+<li>Added check for minimum and maximum categories count;</li>
+<li>Added check for minimum and maximum tags count;</li>
+<li>Added check for default category;</li>
+<li>Option to disable checking for Admins and Editors;</li>
+<li>Option to specify default post template</li>
+</ul>
+<p>1.0</p>
+<ul>
+<li>Initial version</li>
+</ul>
+</body>
+</html>

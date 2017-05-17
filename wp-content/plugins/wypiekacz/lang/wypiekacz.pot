@@ -1,0 +1,602 @@
+# Copyright (C) 2010 WyPiekacz
+# This file is distributed under the same license as the WyPiekacz package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WyPiekacz 2.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wypiekacz\n"
+"POT-Creation-Date: 2011-10-13 21:52:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: wypiekacz.php:231
+msgid "Drafts"
+msgstr ""
+
+#: wypiekacz.php:232
+msgid "Drafts %s"
+msgstr ""
+
+#: wypiekacz.php:237 wypiekacz.php:1200
+msgid "Pending"
+msgstr ""
+
+#: wypiekacz.php:238
+msgid "Pending %s"
+msgstr ""
+
+#: wypiekacz.php:268
+msgid "Post Status has been changed to Draft."
+msgstr ""
+
+#: wypiekacz.php:270
+msgid "Post was *NOT* saved."
+msgstr ""
+
+#: wypiekacz.php:538
+msgid "WyPiekacz Status"
+msgstr ""
+
+#: wypiekacz.php:548
+msgid "[Skipped check]"
+msgstr ""
+
+#: wypiekacz.php:552
+msgid "OK"
+msgstr ""
+
+#: wypiekacz.php:895
+msgid "Post is too short (minimum is %1$s chars, your post has %2$s)."
+msgstr ""
+
+#: wypiekacz.php:903
+msgid "Post is too short (minimum is %1$s words, your post has %2$s)."
+msgstr ""
+
+#: wypiekacz.php:912
+msgid "Post contains too few links (minimum is %1$s, your post has %2$s)."
+msgstr ""
+
+#: wypiekacz.php:915
+msgid "Post contains too many links (maximum is %1$s, your post has %2$s)."
+msgstr ""
+
+#: wypiekacz.php:929
+msgid ""
+"First link is too close to the beginning (minimum is after %1$s chars, your "
+"link is after %2$s)."
+msgstr ""
+
+#: wypiekacz.php:937
+msgid ""
+"First link is too close to the beginning (minimum is after %1$s words, your "
+"link is after %2$s)."
+msgstr ""
+
+#: wypiekacz.php:948
+msgid "Post Title is too short (minimum is %1$s chars, your Title has %2$s)."
+msgstr ""
+
+#: wypiekacz.php:952
+msgid "Post Title is too long (maximum is %1$s chars, your Title has %2$s)."
+msgstr ""
+
+#: wypiekacz.php:961
+msgid "Post Title is too short (minimum is %1$s words, your Title has %2$s)."
+msgstr ""
+
+#: wypiekacz.php:965
+msgid "Post Title is too long (maximum is %1$s words, your Title has %2$s)."
+msgstr ""
+
+#: wypiekacz.php:1002
+msgid "Cannot add posts to the default category (%s)."
+msgstr ""
+
+#: wypiekacz.php:1015
+msgid "Too few categories selected (minimum is %1$s, your post has %2$s)."
+msgstr ""
+
+#: wypiekacz.php:1018
+msgid "Too many categories selected (maximum is %1$s, your post has %2$s)."
+msgstr ""
+
+#: wypiekacz.php:1064
+msgid "Too few tags (minimum is %1$s, your post has %2$s)."
+msgstr ""
+
+#: wypiekacz.php:1067
+msgid "Too many tags (maximum is %1$s, your post has %2$s)."
+msgstr ""
+
+#: wypiekacz.php:1075
+msgid "Forbidden word(s) in title: %s"
+msgstr ""
+
+#: wypiekacz.php:1084
+msgid "Forbidden word(s) in content: %s"
+msgstr ""
+
+#: wypiekacz.php:1103
+msgid "Forbidden word(s) in tags: %s"
+msgstr ""
+
+#: wypiekacz.php:1129
+msgid "Post thumbnail (Featured image) is required."
+msgstr ""
+
+#: wypiekacz.php:1167
+msgid "Skip rule check (publish even if some conditions are not met)"
+msgstr ""
+
+#: wypiekacz.php:1186
+msgid "Draft"
+msgid_plural "Drafts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wypiekacz.php:1254
+msgid "Bad Posts: %1$s, Last Post ID: %2$s"
+msgstr ""
+
+#: wypiekacz.php:1265
+msgid "WyPiekacz - Options"
+msgstr ""
+
+#: wypiekacz.php:1271
+msgid "Post:"
+msgstr ""
+
+#: wypiekacz.php:1275
+msgid "Minimum post length (in chars):"
+msgstr ""
+
+#: wypiekacz.php:1278 wypiekacz.php:1314 wypiekacz.php:1344
+msgid ""
+"Note: if you want to check character count only, set minimum word count to "
+"zero."
+msgstr ""
+
+#: wypiekacz.php:1284
+msgid "Minimum post length (in words):"
+msgstr ""
+
+#: wypiekacz.php:1287 wypiekacz.php:1323 wypiekacz.php:1353
+msgid ""
+"Note: if you want to check word count only, set minimum character count to "
+"zero."
+msgstr ""
+
+#: wypiekacz.php:1293
+msgid "Minimum link count in post:"
+msgstr ""
+
+#: wypiekacz.php:1302
+msgid "Maximum link count in post:"
+msgstr ""
+
+#: wypiekacz.php:1311
+msgid "First link is allowed after N initial characters:"
+msgstr ""
+
+#: wypiekacz.php:1320
+msgid "First link is allowed after N initial words:"
+msgstr ""
+
+#: wypiekacz.php:1329 wypiekacz.php:1477
+msgid "Post thumbnail (Featured image) is required:"
+msgstr ""
+
+#: wypiekacz.php:1333 wypiekacz.php:1481
+msgid ""
+"Note: WyPiekacz supports WordPress Featured image by default. You can also "
+"provide your own function to check if Post thumbnail is present - see FAQ "
+"for more details."
+msgstr ""
+
+#: wypiekacz.php:1337
+msgid "Post's title:"
+msgstr ""
+
+#: wypiekacz.php:1341
+msgid "Minimum title length (in chars):"
+msgstr ""
+
+#: wypiekacz.php:1350
+msgid "Minimum title length (in words):"
+msgstr ""
+
+#: wypiekacz.php:1359
+msgid "Maximum title length (in chars):"
+msgstr ""
+
+#: wypiekacz.php:1362
+msgid ""
+"Note: if you want to check character count only, set maximum word count to "
+"zero."
+msgstr ""
+
+#: wypiekacz.php:1368
+msgid "Maximum title length (in words):"
+msgstr ""
+
+#: wypiekacz.php:1371
+msgid ""
+"Note: if you want to check word count only, set maximum character count to "
+"zero."
+msgstr ""
+
+#: wypiekacz.php:1375
+msgid "Categories:"
+msgstr ""
+
+#: wypiekacz.php:1379
+msgid "Posts can be added to the default category (%s):"
+msgstr ""
+
+#: wypiekacz.php:1388
+msgid "Minimum categories selected:"
+msgstr ""
+
+#: wypiekacz.php:1397
+msgid "Maximum categories selected:"
+msgstr ""
+
+#: wypiekacz.php:1404
+msgid "Tags:"
+msgstr ""
+
+#: wypiekacz.php:1408
+msgid "Minimum tag count:"
+msgstr ""
+
+#: wypiekacz.php:1417
+msgid "Maximum tag count:"
+msgstr ""
+
+#: wypiekacz.php:1424
+msgid "Forbidden words:"
+msgstr ""
+
+#: wypiekacz.php:1428
+msgid "Check for forbidden words in title:"
+msgstr ""
+
+#: wypiekacz.php:1437
+msgid "Check for forbidden words in content:"
+msgstr ""
+
+#: wypiekacz.php:1446
+msgid "Check for forbidden words in tags:"
+msgstr ""
+
+#: wypiekacz.php:1455
+msgid "Forbidden words list:"
+msgstr ""
+
+#: wypiekacz.php:1459 wypiekacz.php:1469
+msgid "Put one word per line"
+msgstr ""
+
+#: wypiekacz.php:1465
+msgid "Allowed words list:"
+msgstr ""
+
+#: wypiekacz.php:1469
+msgid ""
+"When WyPiekacz will found any word from Forbidden Word List in text, it will "
+"check if it part of any word from Allowed Words List (e.g. <b>fly</b> - "
+"forbidden, <b>butterfly</b> - allowed)"
+msgstr ""
+
+#: wypiekacz.php:1473
+msgid "Post Thumbnail:"
+msgstr ""
+
+#: wypiekacz.php:1485
+msgid "Rule enforcement:"
+msgstr ""
+
+#: wypiekacz.php:1489
+msgid "Enforce max links count:"
+msgstr ""
+
+#: wypiekacz.php:1492
+msgid "Extra links over limit will be automatically removed"
+msgstr ""
+
+#: wypiekacz.php:1498
+msgid "Enforce link positions:"
+msgstr ""
+
+#: wypiekacz.php:1501
+msgid ""
+"Links inserted too close to the beginning of post content will be "
+"automatically removed"
+msgstr ""
+
+#: wypiekacz.php:1507
+msgid "Enforce max title length:"
+msgstr ""
+
+#: wypiekacz.php:1510
+msgid "Too long titles will be automatically truncated"
+msgstr ""
+
+#: wypiekacz.php:1516
+msgid "Add &quot;...&quot; at the end of the truncated text:"
+msgstr ""
+
+#: wypiekacz.php:1525
+msgid "Enforce max category count:"
+msgstr ""
+
+#: wypiekacz.php:1528
+msgid "Extra categories over limit will be automatically removed"
+msgstr ""
+
+#: wypiekacz.php:1528
+msgid ""
+"Note: If you do not allow to use the default category, WyPiekacz will try to "
+"remove it first"
+msgstr ""
+
+#: wypiekacz.php:1534
+msgid "Enforce max tag count:"
+msgstr ""
+
+#: wypiekacz.php:1537
+msgid "Extra tags over limit will be automatically removed"
+msgstr ""
+
+#: wypiekacz.php:1541
+msgid "Invalid Posts:"
+msgstr ""
+
+#: wypiekacz.php:1545
+msgid "Do not save posts which do not satisfy all rules:"
+msgstr ""
+
+#: wypiekacz.php:1549
+msgid ""
+"When this option is enabled, posts submitted for review or publishing will "
+"not be saved if they do not satisfy all rules. This can negatively affect "
+"user experience, so enable it if you have to deal with lots of automated "
+"spam only."
+msgstr ""
+
+#: wypiekacz.php:1550
+msgid ""
+"Note: this option does not prevent creation of auto drafts - so far there "
+"are too many dependencies in WordPress code to make it work correctly. "
+"Autosave and normal post saving as draft (without attempt to publish or send "
+"it for review) will work too."
+msgstr ""
+
+#: wypiekacz.php:1556
+msgid "Delete abandoned post drafts interval (days):"
+msgstr ""
+
+#: wypiekacz.php:1559
+msgid ""
+"Default is 0 days - disabled. When Trash is enabled, drafts will be moved to "
+"Trash."
+msgstr ""
+
+#: wypiekacz.php:1565
+msgid "Force deletion of abandoned post drafts:"
+msgstr ""
+
+#: wypiekacz.php:1568
+msgid "Do not move abandoned post drafts to Trash - delete them immediately."
+msgstr ""
+
+#: wypiekacz.php:1572
+msgid "Build-in WordPress functionalities:"
+msgstr ""
+
+#: wypiekacz.php:1576
+msgid "Post autosave interval (seconds):"
+msgstr ""
+
+#: wypiekacz.php:1579
+msgid "Default is 60 seconds. Enter 0 to disable autosave."
+msgstr ""
+
+#: wypiekacz.php:1585
+msgid "Maximum post revisions count:"
+msgstr ""
+
+#: wypiekacz.php:1588
+msgid "Default is -1 (no limit). Enter 0 to disable post revisions."
+msgstr ""
+
+#: wypiekacz.php:1594
+msgid "Empty trash interval (days):"
+msgstr ""
+
+#: wypiekacz.php:1597
+msgid "Default is 30 days. Enter 0 to disable Trash."
+msgstr ""
+
+#: wypiekacz.php:1601
+msgid "Special:"
+msgstr ""
+
+#: wypiekacz.php:1605
+msgid "Check above rules for Editors and Administrators:"
+msgstr ""
+
+#: wypiekacz.php:1614
+msgid "Allow Editors and Administrators to skip rule check:"
+msgstr ""
+
+#: wypiekacz.php:1623
+msgid "Show number of Drafts and Pending Posts in Dashboard:"
+msgstr ""
+
+#: wypiekacz.php:1632
+msgid "Add links to Draft and Pending Posts lists to Posts menu:"
+msgstr ""
+
+#: wypiekacz.php:1639
+msgid "Supported post types:"
+msgstr ""
+
+#: wypiekacz.php:1643
+msgid "Check rules for following post types:"
+msgstr ""
+
+#: wypiekacz.php:1657
+msgid ""
+"Custom Post Types are supported starting from WordPress 3.0 (you are using "
+"version %s). For earlier version WyPiekacz supports Posts only."
+msgstr ""
+
+#: wypiekacz.php:1662
+msgid "Default post template:"
+msgstr ""
+
+#: wypiekacz.php:1666
+msgid "Title:"
+msgstr ""
+
+#: wypiekacz.php:1675
+msgid "Text:"
+msgstr ""
+
+#: wypiekacz.php:1682
+msgid "Email notifications:"
+msgstr ""
+
+#: wypiekacz.php:1686
+msgid "Send notification of new login creation to admin:"
+msgstr ""
+
+#: wypiekacz.php:1695
+msgid "Send notification of password resets to admin:"
+msgstr ""
+
+#: wypiekacz.php:1702
+msgid "Account locking:"
+msgstr ""
+
+#: wypiekacz.php:1709
+msgid ""
+"Current WyPiekacz version is integrated with the <a href=\"%s\" target="
+"\"_blank\">User Locker</a> plugin (version 1.2 or newer). It can lock or "
+"disable user account when he/she will send too many invalid posts for review "
+"or attempt to publish it and abandon them. Multiple failed attempts for the "
+"same post in a row are counted only once. Every successful submission resets "
+"the counter. Users will be able to unlock locked account by requesting new "
+"password or asking admin for help; disabled accounts can be enabled by admin "
+"only."
+msgstr ""
+
+#: wypiekacz.php:1720
+msgid "User Locker 1.2+ is installed and active."
+msgstr ""
+
+#: wypiekacz.php:1722
+msgid ""
+"User Locker 1.2+ is not active. You need to install and activate it first."
+msgstr ""
+
+#: wypiekacz.php:1732
+msgid "Enable account locking/disabling:"
+msgstr ""
+
+#: wypiekacz.php:1741
+msgid "Maximum allowed number of abandoned invalid posts:"
+msgstr ""
+
+#: wypiekacz.php:1744
+msgid ""
+"Multiple failed attempts for the same post in a row are counted only once. "
+"Every successful submission resets the counter."
+msgstr ""
+
+#: wypiekacz.php:1750
+msgid "Account lock method:"
+msgstr ""
+
+#: wypiekacz.php:1755
+msgid "Lock"
+msgstr ""
+
+#: wypiekacz.php:1756
+msgid "Disable"
+msgstr ""
+
+#: wypiekacz.php:1757
+msgid ""
+"Users will be able to unlock locked account by requesting new password or "
+"asking admin for help. Disabled accounts can be enabled by admin only."
+msgstr ""
+
+#: wypiekacz.php:1763
+msgid "Lock/Disable reason:"
+msgstr ""
+
+#: wypiekacz.php:1767
+msgid ""
+"Reason text can be displayed after unsuccessful login attempt, and on User "
+"List. Make sure you enabled appropriate options in User Locker settings."
+msgstr ""
+
+#: wypiekacz.php:1768
+msgid "Note: start text with '@' (AT sign) to keep it private."
+msgstr ""
+
+#: wypiekacz.php:1774
+msgid "Show details on User List:"
+msgstr ""
+
+#: wypiekacz.php:1778
+msgid ""
+"Enable this option to add extra column to User List with Bad Posts count and "
+"last Post ID."
+msgstr ""
+
+#: wypiekacz.php:1787
+msgid "Save settings"
+msgstr ""
+
+#: wypiekacz.php:1865
+msgid "Posts"
+msgstr ""
+
+#: wypiekacz.php:1960
+msgid "Username: %s"
+msgstr ""
+
+#: wypiekacz.php:1961
+msgid "Password: %s"
+msgstr ""
+
+#: wypiekacz.php:1964
+msgid "[%s] Your username and password"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WyPiekacz"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.poradnik-webmastera.com/projekty/wypiekacz/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Checks if posts submitted for review and posted satisfies set of rules."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Daniel Frużyński"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.poradnik-webmastera.com/"
+msgstr ""
